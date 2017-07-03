@@ -11,8 +11,20 @@
 #navy {
     margin-bottom: 0;
 }
+a {
+    -webkit-transition: all 0.2s ease !important;
+    -moz-transition: all 0.2s ease !important;
+    -o-transition: all 0.2s ease !important;
+    -ms-transition: all 0.2s ease !important;
+    transition: all 0.2s ease !important;
+}
 a:hover {
     text-decoration: none;
+    -webkit-transition: all 0.2s ease !important;
+    -moz-transition: all 0.2s ease !important;
+    -o-transition: all 0.2s ease !important;
+    -ms-transition: all 0.2s ease !important;
+    transition: all 0.2s ease !important;
 }
 .light_header .lang-select .lang-panel-con {
     background: #4f758b;
@@ -58,4 +70,24 @@ a.img_popup > span {
 }
 .bg_overlay {
     background: linear-gradient(#4f758b, #2c4351)
+}
+.section-test {
+    /*background-color: #1b365d;*/
+    background-color: transparent;
+}
+.test {
+    background-color: transparent;
+    min-height: 500px;
+}
+.test1 {
+    background-image: -webkit-linear-gradient(151deg, #e4002b 50%, transparent 50%);
+    min-height: 500px;
+}
+.test2 {
+    background-image: -webkit-linear-gradient(151deg, #1b365d 50%, #e4002b 50%);
+    min-height: 500px;
+}
+.test3 {
+    background-color: #1b365d;
+    min-height: 500px;
 }
