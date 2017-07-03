@@ -1,0 +1,61 @@
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+#logo > a img {
+    max-width: 235px;
+}
+#navy > li > a > span {
+    padding: 36px 15px 28px 15px;
+}
+#navy {
+    margin-bottom: 0;
+}
+a:hover {
+    text-decoration: none;
+}
+.light_header .lang-select .lang-panel-con {
+    background: #4f758b;
+}
+#navy > li.active_item > a:not(.nav_trigger), #navy > li:hover > a:not(.nav_trigger), #navy > li > a.current, .light_header #navy > li > a.current {
+    color: #4f758b;
+    text-decoration: none;
+}
+.light_header .topmenu-social span.socialn:after, .light_header .topmenu-social span.socialn:before, .light_header .topmenu-social > a > span.socialn {
+    background: #4f758b;
+    color: #fff;
+}
+.mato_title .line:before {
+    background: #4f758b;
+}
+.mato_title .line i {
+    color: #4f758b;
+}
+.blog_grid_format i {
+    background: #4f758b;
+}
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+    background: #4f758b;
+}
+.quote_con, a.quote_con:focus {
+    background: #4f758b;
+}
+.feature_inner_ling:after {
+    background: #4f758b;
+}
+.inwhite .feature_icon .item h5 .icon span:after {
+    background: #4f758b;
+}
+.feature_icon .item:hover h5 .title {
+    color: #4f758b;
+}
+.section_icon i {
+    background: #fff;
+    color: #4f758b;
+}
+a.img_popup > span {
+    background: rgba(79, 117, 139, 0.7);
+}
+.bg_overlay {
+    background: linear-gradient(#4f758b, #2c4351)
+}
