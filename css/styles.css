@@ -74,20 +74,44 @@ a.img_popup > span {
 .section-test {
     /*background-color: #1b365d;*/
     background-color: transparent;
+    /*background-image: url('../img/containers.jpg');*/
+    /*background-size: 50%;*/
+}
+.section-test h1 {
+    color: white;
+    margin: 0;
+}
+.section-test h4, p {
+    color: #999;
+    margin: 0;
 }
 .test {
     background-color: transparent;
-    min-height: 500px;
+    min-height: 520px;
 }
 .test1 {
-    background-image: -webkit-linear-gradient(151deg, #e4002b 50%, transparent 50%);
-    min-height: 500px;
+    background-image: -webkit-linear-gradient(152deg, #e4002b 50%, transparent 50%);
+    min-height: 520px;
 }
 .test2 {
-    background-image: -webkit-linear-gradient(151deg, #1b365d 50%, #e4002b 50%);
-    min-height: 500px;
+    background-image: -webkit-linear-gradient(152deg, #1b365d 50%, #e4002b 50%);
+    min-height: 520px;
 }
 .test3 {
-    background-color: #1b365d;
-    min-height: 500px;
+    background: linear-gradient(to right, #1b365d, #0f213a);
+    min-height: 520px;
+    padding: 30px;
+}
+.exchange-flag {
+    height: 50px;
+    width: 80px;
+}
+.exchange-items {
+    margin-bottom: 10px;
+}
+.exchange-items > div > p:first-child {
+    color: #999;    
+}
+.exchange-items > div > p:last-child {
+    color: #FFF;    
 }
