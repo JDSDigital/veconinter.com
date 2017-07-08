@@ -218,9 +218,9 @@ a.img_popup > img, .related_posts_slide .related_img > img, .add2cart_image .add
 }
 #preloader{
 	display: none;
-	background: #fff;
-    height: 100%;
-    position: absolute;
+	background: linear-gradient(#4f758b, #2c4351);
+    height: 100vh;
+    position: fixed;
     width: 100%;
     z-index: 100000;
 }
@@ -292,7 +292,7 @@ a.img_popup > img, .related_posts_slide .related_img > img, .add2cart_image .add
 	display: inline-block;
 	position: absolute;
 	top: 0;
-	background-color: #1CCDCA;
+	background-color: #E4002B;
 	border-radius: 100%;
 	-webkit-animation: sk-chasingDotsBounce 2s infinite ease-in-out;
             animation: sk-chasingDotsBounce 2s infinite ease-in-out; }

@@ -26,7 +26,7 @@ jQuery('#rev_slider_1').show().revolution({
 });*/
 $(function () {
     $('.marquee').marquee({
-        duration: 15000,
+        duration: 20000,
         duplicated: true,
         pauseOnHover: true
     });

@@ -67,13 +67,13 @@ a:hover {
     background: #4f758b;
 }
 .inwhite .feature_icon .item h5 .icon span:after {
-    background: #4f758b;
+    background: #e4002b;
 }
 .recent_posts_list li > a .recent_posts_img:after {
     background: #4f758b;
 }
 .feature_icon .item:hover h5 .title {
-    color: #4f758b;
+    color: #FFF;
 }
 #footer .tagcloud a:hover .tag {
     border-color: #4f758b;
@@ -156,4 +156,45 @@ a.img_popup > span {
 }
 .marquee li {
     margin: 3px 20px;
+}
+
+/* WebKit and Opera browsers */
+@-webkit-keyframes spinner {
+    from { -webkit-transform: rotateY(0deg);    }
+    to   { -webkit-transform: rotateY(-360deg); }
+}
+
+/* all other browsers */
+@keyframes spinner {
+    from {
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    to {
+        -moz-transform: rotateY(-360deg);
+        -ms-transform: rotateY(-360deg);
+        transform: rotateY(-360deg);
+    }
+}
+
+#spinner {
+    -webkit-animation-name: spinner;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6s;
+
+    animation-name: spinner;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+    position: absolute;
+    top: 43%;
+    left: 43%;
 }
