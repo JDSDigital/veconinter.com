@@ -29,6 +29,12 @@ a:hover {
 .light_header .lang-select .lang-panel-con {
     background: #4f758b;
 }
+#mato_nav {
+    float: none;
+}
+#navy li {
+    float: none;
+}
 #navy > li.active_item > a:not(.nav_trigger), #navy > li:hover > a:not(.nav_trigger), #navy > li > a.current, .light_header #navy > li > a.current {
     color: #4f758b;
     text-decoration: none;
