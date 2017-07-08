@@ -2,6 +2,9 @@
     display: flex;
     align-items: center;
 }
+ul.marquee li {
+    display: inline-block;
+}
 #logo > a img {
     max-width: 235px;
 }
@@ -12,6 +15,7 @@
     margin-bottom: 0;
 }
 a {
+    color: #4f758b;
     -webkit-transition: all 0.2s ease !important;
     -moz-transition: all 0.2s ease !important;
     -o-transition: all 0.2s ease !important;
@@ -19,6 +23,7 @@ a {
     transition: all 0.2s ease !important;
 }
 a:hover {
+    color: #4f758b;
     text-decoration: none;
     -webkit-transition: all 0.2s ease !important;
     -moz-transition: all 0.2s ease !important;
@@ -64,11 +69,29 @@ a:hover {
 .inwhite .feature_icon .item h5 .icon span:after {
     background: #4f758b;
 }
+.recent_posts_list li > a .recent_posts_img:after {
+    background: #4f758b;
+}
 .feature_icon .item:hover h5 .title {
     color: #4f758b;
 }
+#footer .tagcloud a:hover .tag {
+    border-color: #4f758b;
+}
+.arrow_button {
+    border-color: #4f758b;
+}
 .section_icon i {
     background: #fff;
+    color: #4f758b;
+}
+.feature_inner_btns > a {
+    color: #4f758b;
+}
+#Gabriel_owl_slider .owl-page.active, #Gabriel_owl_slider .owl-page:hover, .png_slider .owl-page.active, .png_slider .owl-page:hover, .feature_icon_slider .owl-page.active, .feature_icon_slider .owl-page:hover, .porto_galla .owl-page.active, .porto_galla .owl-page:hover, .content_slider .owl-page.active, .content_slider .owl-page:hover, .sidebar_slider .owl-page.active, .sidebar_slider .owl-page:hover {
+    background-color: #4f758b;
+}
+.porto_galla .Gabriel_owl_p, .porto_galla .Gabriel_owl_n {
     color: #4f758b;
 }
 a.img_popup > span {
@@ -109,8 +132,9 @@ a.img_popup > span {
     padding: 30px;
 }
 .exchange-flag {
-    height: 50px;
-    width: 80px;
+    height: 12px;
+    width: 20px;
+    margin-right: 5px;
 }
 .exchange-items {
     margin-bottom: 10px;
@@ -120,4 +144,16 @@ a.img_popup > span {
 }
 .exchange-items > div > p:last-child {
     color: #FFF;    
+}
+.row_spacer_footer {
+    padding: 50px 0;
+}
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    background-color: #97999b;
+    color: white;
+}
+.marquee li {
+    margin: 3px 20px;
 }

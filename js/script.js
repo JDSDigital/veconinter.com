@@ -1,3 +1,4 @@
+/*
 jQuery('#rev_slider_1').show().revolution({
  
     sliderType: 'carousel',
@@ -22,4 +23,11 @@ jQuery('#rev_slider_1').show().revolution({
         minScale: 50
  
     },
+});*/
+$(function () {
+    $('.marquee').marquee({
+        duration: 15000,
+        duplicated: true,
+        pauseOnHover: true
+    });
 });
