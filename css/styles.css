@@ -100,6 +100,26 @@ a.img_popup > span {
 .bg_overlay {
     background: linear-gradient(#4f758b, #2c4351)
 }
+.div-icons_con.style2:not(.solid_icon):not(.icon_box_no_border) .div-serv .icon {
+    background: #1b365d;
+    color: #fff;
+}
+.div-icons_con.style2:not(.solid_icon):not(.icon_box_no_border) .div-serv:hover .icon {
+    background: #e4002b;
+    color: #fff;
+}
+.inwhite .div-icons_con.style2:not(.icon_box_no_border) .div-serv .icon::after {
+    background: inherit;
+    border: none;
+}
+#pagination {
+     margin-top: 0;
+}
+.pagination li a:hover, .pagination li.active a, .pagination li.next_pagination > a:hover, .pagination li.prev_pagination > a:hover {
+    background: #4f758b;
+    border-color: #4f758b;
+    color: #fff;
+}
 .section-test {
     /*background-color: #1b365d;*/
     background-color: transparent;
@@ -197,4 +217,25 @@ a.img_popup > span {
     position: absolute;
     top: 43%;
     left: 43%;
+}
+
+#footer {
+    background: linear-gradient(#4f758b, #2c4351);
+    color: #ddd;
+}
+#footer #read_more_footer {
+    color: #4f758b;
+    -webkit-transition: all 0.2s ease !important;
+    -moz-transition: all 0.2s ease !important;
+    -o-transition: all 0.2s ease !important;
+    -ms-transition: all 0.2s ease !important;
+    transition: all 0.2s ease !important;
+}
+#footer #read_more_footer:hover {
+    color: white;
+    -webkit-transition: all 0.2s ease !important;
+    -moz-transition: all 0.2s ease !important;
+    -o-transition: all 0.2s ease !important;
+    -ms-transition: all 0.2s ease !important;
+    transition: all 0.2s ease !important;
 }
