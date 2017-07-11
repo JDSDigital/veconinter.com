@@ -1,3 +1,6 @@
+body {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif !important;
+}
 .vertical-align {
     display: flex;
     align-items: center;
@@ -34,6 +37,18 @@ a:hover {
 .light_header .lang-select .lang-panel-con {
     background: #4f758b;
 }
+.btn-login {
+    /*border: 1px solid red;*/
+    border-radius: 0;
+    margin: 3px 0 3px 20px;
+    color: #fff;
+    /*background-color: #1b365d;*/
+    background-color: #4f758b;
+}
+.btn-login:hover {
+    color: #fff;
+    background-color: #1b365d;
+}
 #mato_nav {
     float: none;
 }
@@ -44,12 +59,39 @@ a:hover {
     color: #4f758b;
     text-decoration: none;
 }
+.main-slider {
+    height: 500px;
+    background-color: rgba(0,0,0,0.1);
+    /*background-image: url('../img/02.jpg');*/
+    /*background-size: 100%;*/
+    /*background-position: center;*/
+}
+.main-slider img {
+    margin: 0 auto;
+    /*background-color: rgba(0,0,0,0.1);*/
+}
+.main-slider-text {
+    margin-top: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.7);
+}
+.main-slider-text h1,h2 {
+    color: #fff;
+    margin-top: 10px;
+}
+.content_section.bg-fixed.inwhite.bg3 {
+    top: -1px;
+}
+.inwhite .div-icons_con.style1 .div-serv .desc, .inwhite .div-icons_con.style2 .div-serv .desc {
+    font-weight: 400;
+}
 .light_header .topmenu-social span.socialn:after, .light_header .topmenu-social span.socialn:before, .light_header .topmenu-social > a > span.socialn {
     background: #4f758b;
     color: #fff;
 }
 .mato_title .line:before {
-    background: #4f758b;
+    background: #1b365d;
 }
 .mato_title .line i {
     color: #4f758b;
@@ -99,6 +141,10 @@ a.img_popup > span {
 }
 .bg_overlay {
     background: linear-gradient(#4f758b, #2c4351)
+}
+.bg_services {
+    background: linear-gradient(#4f758b, #2c4351);
+    background-image: -webkit-linear-gradient(150deg, transparent 10%, #e4002b 10%, #e4002b 20%, #e4002b 20%, #e4002b 20%, transparent 20%, transparent 85%, #1b365d 85%);
 }
 .div-icons_con.style2:not(.solid_icon):not(.icon_box_no_border) .div-serv .icon {
     background: #1b365d;
