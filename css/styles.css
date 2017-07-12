@@ -90,6 +90,10 @@ a:hover {
     background: #4f758b;
     color: #fff;
 }
+#navigation_bar {
+    margin-left: 0;
+    margin-right: 0;
+}
 .mato_title .line:before {
     background: #1b365d;
 }
@@ -145,6 +149,19 @@ a.img_popup > span {
 .bg_services {
     background: linear-gradient(#4f758b, #2c4351);
     background-image: -webkit-linear-gradient(150deg, transparent 10%, #e4002b 10%, #e4002b 20%, #e4002b 20%, #e4002b 20%, transparent 20%, transparent 85%, #1b365d 85%);
+}
+.bg_vecogo {
+    background-image: -webkit-linear-gradient(150deg, transparent 55%, #e4002b 55%, #e4002b 55%, #e4002b 65%, #e4002b 65%, #1b365d 65%);
+}
+.img-vecogo {
+    margin: 60px 0 10px 0 ;
+}
+.img-phone {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.bg_vecogo h4 {
+    color: #364958;
 }
 .div-icons_con.style2:not(.solid_icon):not(.icon_box_no_border) .div-serv .icon {
     background: #1b365d;

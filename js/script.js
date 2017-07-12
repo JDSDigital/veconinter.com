@@ -30,5 +30,5 @@ $(function () {
         duplicated: true,
         pauseOnHover: true
     });
-    $('.main-slider').parallax({imageSrc: '../img/02.jpg'});
+    $('.main-slider').parallax({imageSrc: './img/02.jpg'});
 });
