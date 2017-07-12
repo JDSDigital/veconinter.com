@@ -175,6 +175,10 @@ a.img_popup > span {
     background: inherit;
     border: none;
 }
+.feature_inner {
+    max-width: 360px;
+    max-height: 200px;
+}
 #pagination {
      margin-top: 0;
 }
@@ -188,31 +192,6 @@ a.img_popup > span {
     background-color: transparent;
     /*background-image: url('../img/containers.jpg');*/
     /*background-size: 50%;*/
-}
-.section-test h1 {
-    color: white;
-    margin: 0;
-}
-.section-test h4, p {
-    color: #999;
-    margin: 0;
-}
-.test {
-    background-color: transparent;
-    min-height: 520px;
-}
-.test1 {
-    background-image: -webkit-linear-gradient(152deg, #e4002b 50%, transparent 50%);
-    min-height: 520px;
-}
-.test2 {
-    background-image: -webkit-linear-gradient(152deg, #1b365d 50%, #e4002b 50%);
-    min-height: 520px;
-}
-.test3 {
-    background: linear-gradient(to right, #1b365d, #0f213a);
-    min-height: 520px;
-    padding: 30px;
 }
 .exchange-flag {
     height: 12px;
@@ -281,7 +260,10 @@ a.img_popup > span {
     top: 43%;
     left: 43%;
 }
-
+.recent_posts_img {
+    max-width: 90px;
+    max-height: 60px;
+}
 #footer {
     background: linear-gradient(#4f758b, #2c4351);
     color: #ddd;
