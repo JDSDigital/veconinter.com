@@ -262,6 +262,9 @@ a.img_popup > span {
     max-width: 100%;
     max-height: 100%;
 }
+.blog_grid_con .title a:hover {
+    color: #4f758b;
+}
 #pagination {
      margin-top: 0;
 }
