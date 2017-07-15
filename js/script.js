@@ -30,5 +30,15 @@ $(function () {
         duplicated: true,
         pauseOnHover: true
     });
-    $('.main-slider').parallax({imageSrc: './img/02.jpg'});
+    $('.main-slider').parallax({imageSrc: './img/03.jpg'});
+});
+
+$(document).ready(function() {
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 0) {
+            $('#navigation_bar').css('opacity', 1);
+        } else {
+            $('#navigation_bar').css('opacity', 0.7);
+        }
+    });
 });

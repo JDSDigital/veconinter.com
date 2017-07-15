@@ -62,9 +62,10 @@ ul.marquee li {
 }
 #logo > a img {
     max-width: 235px;
+    padding: 5px;
 }
 #navy > li > a > span {
-    padding: 36px 15px 28px 15px;
+    padding: 38px 15px 28px 15px;
 }
 #navy {
     margin-bottom: 0;
@@ -116,7 +117,8 @@ a:hover {
     text-decoration: none;
 }
 .main-slider {
-    height: 500px;
+    height: 450px;
+    margin-top: -83px;
     background-color: rgba(0,0,0,0.1);
     /*background-image: url('../img/02.jpg');*/
     /*background-size: 100%;*/
@@ -127,7 +129,7 @@ a:hover {
     /*background-color: rgba(0,0,0,0.1);*/
 }
 .main-slider-text {
-    margin-top: 50px;
+    margin-top: 100px;
     text-transform: uppercase;
     text-shadow: 3px 3px 5px rgba(0,0,0,0.7);
 }
@@ -149,10 +151,23 @@ a:hover {
 #navigation_bar {
     margin-left: 0;
     margin-right: 0;
-    background-color: rgba(255,255,255,0.7) !important;
+    border: none !important;
+    /*background-color: rgba(255,255,255,0.5);*/
+    opacity: 0.7;
+    -webkit-transition: all 0.4s ease !important;
+    -moz-transition: all 0.4s ease !important;
+    -o-transition: all 0.4s ease !important;
+    -ms-transition: all 0.4s ease !important;
+    transition: all 0.4s ease !important;
 }
 #navigation_bar:hover {
-    background-color: rgba(255,255,255,1) !important;
+    /*background-color: rgba(255,255,255,1);*/
+    opacity: 1;
+    -webkit-transition: all 0.4s ease !important;
+    -moz-transition: all 0.4s ease !important;
+    -o-transition: all 0.4s ease !important;
+    -ms-transition: all 0.4s ease !important;
+    transition: all 0.4s ease !important;
 }
 .mato_title .line:before {
     background: #1b365d;
@@ -214,13 +229,17 @@ a.img_popup > span {
 }
 .bg_services {
     /*background: linear-gradient(#4f758b, #2c4351);*/
-    background-image: linear-gradient(120deg, #1F2A44 0%, #1b365d 15%, transparent 15%, transparent 85%, #e4002b 85%, #C8102E 95%, transparent 95%, transparent 100%);
-    background-image: -moz-linear-gradient(150deg, transparent 10%, #C8102E 10%, #e4002b 20%, transparent 20%, transparent 85%, #1b365d 85%, #1F2A44 100%);
-    background-image: -webkit-linear-gradient(150deg, transparent 5%, #C8102E 5%, #e4002b 15%, transparent 15%, transparent 85%, #1b365d 85%, #1F2A44 100%);
+    /*background: -webkit-linear-gradient(150deg, transparent 5%, #C8102E 5%, #e4002b 15%, transparent 15%, transparent 85%, #1b365d 85%, #1F2A44 100%);*/
+    /*background: -moz-linear-gradient(150deg, transparent 10%, #C8102E 10%, #e4002b 20%, transparent 20%, transparent 85%, #1b365d 85%, #1F2A44 100%);*/
+    /*background: linear-gradient(120deg, #1F2A44 0%, #1b365d 15%, transparent 15%, transparent 85%, #e4002b 85%, #C8102E 95%, transparent 95%, transparent 100%);*/
+    background: url("../img/diagonalbg.png");
+    background-size: 100% 100%;
 }
 .bg_services2 {
     /*background: linear-gradient(#4f758b, #2c4351);*/
-    background-image: -webkit-linear-gradient(150deg, transparent 5%, #1F2A44 5%, #1b365d 15%, transparent 15%, transparent 85%, #e4002b 85%, #C8102E 100%);
+    /*background-image: -webkit-linear-gradient(150deg, transparent 5%, #1F2A44 5%, #1b365d 15%, transparent 15%, transparent 85%, #e4002b 85%, #C8102E 100%);*/
+    background: url("../img/diagonalbg.png");
+    background-size: 100% 100%;
 }
 .bg_services2 > div > .div-icons_con > div > .div-serv > .div-serv_con h3 {
     color: #324545 !important;
@@ -229,10 +248,13 @@ a.img_popup > span {
     color: #000 !important;
 }
 .bg_vecogo {
-    background-image: -webkit-linear-gradient(150deg, transparent 55%, #C8102E 55%, #e4002b 55%, #e4002b 65%, #e4002b 65%, #1b365d 65%, #1b365d 65%, #1F2A44 100%);
+    /*background-image: -moz-linear-gradient(150deg, transparent 55%, #C8102E 55%, #e4002b 55%, #e4002b 65%, #e4002b 65%, #1b365d 65%, #1b365d 65%, #1F2A44 100%);*/
+    /*background-image: -webkit-linear-gradient(150deg, transparent 55%, #C8102E 55%, #e4002b 55%, #e4002b 65%, #e4002b 65%, #1b365d 65%, #1b365d 65%, #1F2A44 100%);*/
+    background: url("../img/diagonalbg2.png");
+    background-size: 100% 100%;
 }
 .img-vecogo {
-    margin: 60px 0 10px 0 ;
+    margin: 80px 0 10px 0 ;
 }
 .img-phone {
     margin: 0 auto;
