@@ -66,6 +66,7 @@ ul.marquee li {
 }
 #navy > li > a > span {
     padding: 38px 15px 28px 15px;
+    font-weight: 500;
 }
 #navy {
     margin-bottom: 0;
@@ -170,7 +171,7 @@ a:hover {
     transition: all 0.4s ease !important;
 }
 .mato_title .line:before {
-    background: #1b365d;
+    background: #e4002b;
 }
 .mato_title .line i {
     color: #4f758b;
@@ -240,13 +241,17 @@ a.img_popup > span {
     /*background: -moz-linear-gradient(150deg, transparent 10%, #C8102E 10%, #e4002b 20%, transparent 20%, transparent 85%, #1b365d 85%, #1F2A44 100%);*/
     /*background: linear-gradient(120deg, #1F2A44 0%, #1b365d 15%, transparent 15%, transparent 85%, #e4002b 85%, #C8102E 95%, transparent 95%, transparent 100%);*/
     background: url("../img/diagonalbg.png");
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .bg_services2 {
     /*background: linear-gradient(#4f758b, #2c4351);*/
     /*background-image: -webkit-linear-gradient(150deg, transparent 5%, #1F2A44 5%, #1b365d 15%, transparent 15%, transparent 85%, #e4002b 85%, #C8102E 100%);*/
     background: url("../img/diagonalbg.png");
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .bg_services2 > div > .div-icons_con > div > .div-serv > .div-serv_con h3 {
     color: #324545 !important;
@@ -258,18 +263,48 @@ a.img_popup > span {
     /*background-image: -moz-linear-gradient(150deg, transparent 55%, #C8102E 55%, #e4002b 55%, #e4002b 65%, #e4002b 65%, #1b365d 65%, #1b365d 65%, #1F2A44 100%);*/
     /*background-image: -webkit-linear-gradient(150deg, transparent 55%, #C8102E 55%, #e4002b 55%, #e4002b 65%, #e4002b 65%, #1b365d 65%, #1b365d 65%, #1F2A44 100%);*/
     background: url("../img/diagonalbg2.png");
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg_vecogo2 {
+    /*background-image: -moz-linear-gradient(150deg, transparent 55%, #C8102E 55%, #e4002b 55%, #e4002b 65%, #e4002b 65%, #1b365d 65%, #1b365d 65%, #1F2A44 100%);*/
+    /*background-image: -webkit-linear-gradient(150deg, transparent 55%, #C8102E 55%, #e4002b 55%, #e4002b 65%, #e4002b 65%, #1b365d 65%, #1b365d 65%, #1F2A44 100%);*/
+    background: url("../img/diagonalbg3.png");
+    background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 .img-vecogo {
     margin: 80px 0 10px 0 ;
 }
+.img-app {
+    margin-bottom: 80px;
+}
 .img-phone {
     margin: 0 auto;
     margin-top: 20px;
 }
-.bg_vecogo h4 {
+.bg_vecogo h4, h6 {
+    color: #333;
+    font-weight: 600;
+    padding: 3px;
+}
+.veco-app-icons {
+    font-size: 48px;
+    margin: 10px;
     color: #364958;
+}
+.btn-vecoapp {
+    background-color: black;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 1px 1px 3px #333;
+    margin-bottom: 50px;
+}
+.btn-vecoapp:hover {
+    color: #4f758b;
 }
 .inwhite .div-icons_con.style1 .div-serv .desc, .inwhite .div-icons_con.style2 .div-serv .desc {
     color: #ddd;
