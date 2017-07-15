@@ -175,6 +175,13 @@ a:hover {
 .mato_title .line i {
     color: #4f758b;
 }
+#navy span {
+    font-size: 12px;
+    color: #000;
+}
+#navy .active_item span, #navy span:hover {
+    color: #4f758b;
+}
 .blog_grid_format i {
     background: #4f758b;
 }
@@ -251,7 +258,8 @@ a.img_popup > span {
     /*background-image: -moz-linear-gradient(150deg, transparent 55%, #C8102E 55%, #e4002b 55%, #e4002b 65%, #e4002b 65%, #1b365d 65%, #1b365d 65%, #1F2A44 100%);*/
     /*background-image: -webkit-linear-gradient(150deg, transparent 55%, #C8102E 55%, #e4002b 55%, #e4002b 65%, #e4002b 65%, #1b365d 65%, #1b365d 65%, #1F2A44 100%);*/
     background: url("../img/diagonalbg2.png");
-    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .img-vecogo {
     margin: 80px 0 10px 0 ;
