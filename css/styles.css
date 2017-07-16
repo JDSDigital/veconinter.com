@@ -51,8 +51,8 @@ body {
     font-family: 'Gotham', 'Montserrat', Helvetica, Arial, sans-serif !important;
 }
 .vertical-align {
-    display: flex;
-    align-items: center;
+    display: flex !important;
+    align-items: center !important;
 }
 .m0a {
     margin: 0 auto;
@@ -270,13 +270,20 @@ a.img_popup > span {
 .bg_vecogo2 {
     /*background-image: -moz-linear-gradient(150deg, transparent 55%, #C8102E 55%, #e4002b 55%, #e4002b 65%, #e4002b 65%, #1b365d 65%, #1b365d 65%, #1F2A44 100%);*/
     /*background-image: -webkit-linear-gradient(150deg, transparent 55%, #C8102E 55%, #e4002b 55%, #e4002b 65%, #e4002b 65%, #1b365d 65%, #1b365d 65%, #1F2A44 100%);*/
-    background: url("../img/diagonalbg3.png");
+    background: url("../img/diagonalbg6.png");
     background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 .img-vecogo {
     margin: 80px 0 10px 0 ;
+}
+.img-vecogo2 {
+    margin: 24px 0 10px 0 ;
+    padding: 3px;
+}
+.img-vecoaccess {
+    margin: 30px 0 10px 0 ;
 }
 .img-app {
     margin-bottom: 80px;
@@ -291,7 +298,7 @@ a.img_popup > span {
     padding: 3px;
 }
 .veco-app-icons {
-    font-size: 48px;
+    font-size: 34px;
     margin: 10px;
     color: #364958;
 }
@@ -461,6 +468,17 @@ blockquote > i {
 .recent_posts_img {
     max-width: 90px;
     max-height: 60px;
+}
+.panel-heading a:not(.collapsed) {
+    background: #4f758b;
+    color: #fff;
+    border-color: #4f758b;
+}
+.panel-heading a:hover i {
+    color: #4f758b;
+}
+.panel-heading a:hover:after, .panel-heading a:hover:before {
+    background: #4f758b;
 }
 #footer {
     background: linear-gradient(#4f758b, #2c4351);
