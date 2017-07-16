@@ -480,6 +480,15 @@ blockquote > i {
 .panel-heading a:hover:after, .panel-heading a:hover:before {
     background: #4f758b;
 }
+#menu-icon h4 {
+    margin: 30px 0;
+    color: #1b365d;
+}
+#menu-icon i {
+    font-size: 80px !important;
+    color: #e4002b;
+    text-shadow: 1px 1px 3px #1b365d;
+}
 #footer {
     background: linear-gradient(#4f758b, #2c4351);
     color: #ddd;
