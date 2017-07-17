@@ -31,6 +31,7 @@ $(function () {
         pauseOnHover: true
     });
     $('.main-slider').parallax({imageSrc: './img/03.jpg'});
+    $('.services-slider').parallax({imageSrc: './img/01.jpg'});
 });
 
 $(document).ready(function() {
