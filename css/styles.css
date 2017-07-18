@@ -101,11 +101,15 @@ a:hover {
     margin: 3px 0 3px 20px;
     color: #fff;
     /*background-color: #1b365d;*/
-    background-color: #4f758b;
+    background: linear-gradient(#4f758b, #2c4351);
 }
 .btn-login:hover {
     color: #fff;
-    background-color: #1b365d;
+    /*background-color: #1b365d;*/
+    background: linear-gradient(#2c4351, #4f758b);
+}
+.btn-login:focus {
+    color: #fff;
 }
 #mato_nav {
     float: none;
@@ -302,10 +306,11 @@ a.img_popup > span {
 }
 .img-vecogo2 {
     margin: 24px 0 10px 0 ;
-    padding: 3px;
+    padding: 43px;
 }
 .img-vecoaccess {
     margin: 30px 0 10px 0 ;
+    padding: 40px;
 }
 .img-app {
     margin-bottom: 80px;
@@ -512,6 +517,12 @@ blockquote > i {
 .div-serv-container .icon {
     top: 33px !important;
     left: 25px !important;
+}
+.div-serv-container i {
+    font-size: 34px;
+}
+.div-icons_con.style2:not(.icon_box_no_border) .div-serv-container .icon:after {
+    top: -12px;
 }
 .div-serv-container:hover h3 {
     color: #1b365d;
