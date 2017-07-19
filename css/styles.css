@@ -521,6 +521,18 @@ blockquote > i {
 .div-serv-container i {
     font-size: 34px;
 }
+.title1 {
+    color: #4f758b;
+}
+.service-icon-big {
+    color: #4f758b;
+    font-size: 180px;
+    position: relative;
+}
+.service-icon-big i {
+    margin: 10px 50px;
+    position: absolute;
+}
 .div-icons_con.style2:not(.icon_box_no_border) .div-serv-container .icon:after {
     top: -12px;
 }
