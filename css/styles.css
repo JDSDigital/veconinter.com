@@ -508,6 +508,9 @@ blockquote > i {
     bottom: 20px;
     right: 20px;
 }
+.container-services .btn:hover {
+    background-color: #1b365d;
+}
 .div-serv-container {
     border: 1px solid #ddd;
     padding: 20px;
