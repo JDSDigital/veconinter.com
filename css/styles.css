@@ -517,6 +517,10 @@ blockquote > i {
     height: 280px;
     box-shadow: 3px 3px 5px #ddd;
 }
+.div-serv-container:hover {
+    top: -2px;
+    box-shadow: 5px 5px 5px #ddd;
+}
 .div-serv-container .icon {
     top: 33px !important;
     left: 25px !important;
