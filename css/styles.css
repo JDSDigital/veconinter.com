@@ -533,7 +533,8 @@ blockquote > i {
 }
 .service-icon-big {
     color: #4f758b;
-    font-size: 180px;
+    height: 200px;
+    font-size: 150px;
     position: relative;
 }
 .service-icon-big i {
