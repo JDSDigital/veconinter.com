@@ -32,6 +32,7 @@ $(function () {
     });
     $('.main-slider').parallax({imageSrc: './img/03.jpg'});
     $('.services-slider').parallax({imageSrc: './img/01.jpg'});
+    $('.values-row').parallax({imageSrc: './img/03.jpg'});
 });
 
 $(document).ready(function() {

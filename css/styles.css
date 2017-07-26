@@ -496,7 +496,7 @@ blockquote > i {
     max-width: 90px;
     max-height: 60px;
 }
-.container-services {
+.container-services, .container-about{
     margin-top: 65px;
 }
 .container-services .btn {
@@ -546,6 +546,56 @@ blockquote > i {
 }
 .div-serv-container:hover h3 {
     color: #1b365d;
+}
+.tabs1.ver_tabs .tabs-navigator a.selected {
+    background: #fff;
+    color: #4f758b;
+}
+.tabs1.ver_tabs .tabs-navigator a.selected i {
+    color: #e4002b;
+}
+.ver_tabs .tabs-navigator a.selected:before {
+    background: #e4002b;
+}
+.ver_tabs .tabs-navigator li {
+    min-width: 225px;
+}
+.container-about {
+    margin-bottom: 50px;
+}
+.about-tabs {
+    height: 450px;
+}
+.values-row {
+    margin: 50px 0;
+    background-color: rgba(255,255,255,0.4);
+}
+.values-row img {
+    margin: 20px auto;
+}
+.partners {
+    margin-bottom: 30px;
+}
+.partners a {
+    margin: 20px;
+}
+.partners a img {
+    transform: scale(0.9);
+    opacity: 0.5;
+    -webkit-transition: all 0.2s ease !important;
+    -moz-transition: all 0.2s ease !important;
+    -o-transition: all 0.2s ease !important;
+    -ms-transition: all 0.2s ease !important;
+    transition: all 0.2s ease !important;
+}
+.partners a img:hover {
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: all 0.2s ease !important;
+    -moz-transition: all 0.2s ease !important;
+    -o-transition: all 0.2s ease !important;
+    -ms-transition: all 0.2s ease !important;
+    transition: all 0.2s ease !important;
 }
 #footer {
     background: linear-gradient(#4f758b, #2c4351);
