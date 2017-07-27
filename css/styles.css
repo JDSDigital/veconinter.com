@@ -597,6 +597,37 @@ blockquote > i {
     -ms-transition: all 0.2s ease !important;
     transition: all 0.2s ease !important;
 }
+.news-container {
+    margin-bottom: 50px;
+}
+.news-header h4 {
+    color: #4f758b;
+    text-transform: uppercase;
+}
+.news-image img {
+    position: relative;
+    z-index: 1;
+}
+.news-image .news-date {
+    position: absolute;
+    z-index: 2;
+    color: #FFF;
+    text-align: center;
+    background: linear-gradient(rgb(234,43,42), rgb(153,10,24));
+    margin: 30px;
+    padding: 20px 5px;
+}
+.news-date p:nth-child(1) {
+    font-size: 36px;
+    font-weight: 600;
+}
+.news-date p:nth-child(2) {
+    font-size: 12px;
+    margin: 0;
+}
+.news-description {
+    /*padding-top: 30px;*/
+}
 #footer {
     background: linear-gradient(#4f758b, #2c4351);
     color: #ddd;
