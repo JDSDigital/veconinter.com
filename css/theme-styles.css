@@ -218,7 +218,9 @@ a.img_popup > img, .related_posts_slide .related_img > img, .add2cart_image .add
 }
 #preloader{
 	display: none;
-	background: linear-gradient(#4f758b, #2c4351);
+	/*background: linear-gradient(#4f7386, #2c4351);*/
+	background: linear-gradient(rgb(43,112,155), rgb(46,76,106));
+	/*background: white;*/
     height: 100vh;
     position: fixed;
     width: 100%;
