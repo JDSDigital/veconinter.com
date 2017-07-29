@@ -33,6 +33,7 @@ $(function () {
     $('.main-slider').parallax({imageSrc: './img/03.jpg'});
     $('.services-slider').parallax({imageSrc: './img/01.jpg'});
     $('.values-row').parallax({imageSrc: './img/03.jpg'});
+    $('.send-resume-block').parallax({imageSrc: './img/team2.jpg'});
 });
 
 $(document).ready(function() {
