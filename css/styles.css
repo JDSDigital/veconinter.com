@@ -569,7 +569,15 @@ blockquote > i {
 }
 .values-row {
     margin: 50px 0;
-    background-color: rgba(255,255,255,0.4);
+    /*background-color: rgba(255,255,255,0.4);*/
+    /*background: linear-gradient(rgb(43,112,155), rgb(46,76,106));*/
+    background: linear-gradient(#4f758b, #2c4351);
+    /*background-image: url("../img/diagonalbg.png");*/
+    background-size: 100%;
+    padding: 50px 0;
+}
+.values-row h2 {
+    color: #FFF;
 }
 .values-row img {
     margin: 20px auto;
