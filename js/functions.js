@@ -1028,7 +1028,7 @@
 				});
 	
 				var map;
-				if (typeof GMaps !== 'undefined') {
+				//if (typeof GMaps !== 'undefined') {
 					map = new GMaps({
 						el: element,
 						scrollwheel: false,
@@ -1039,7 +1039,8 @@
 						map.addMarker({
 							lat: mato_lato,
 							lng: mato_longo,
-							icon: "images/map2.png",
+							//icon: "images/map2.png",
+							icon: "./img/favicon.png",
 							infoWindow: {
 								content: mato_texto
 							}
@@ -1064,7 +1065,7 @@
 								}
 							}
 						});
-					}
+					//}
 				}
 				var arr = [];
 				var arr_con = [];
