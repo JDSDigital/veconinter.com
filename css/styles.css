@@ -688,6 +688,24 @@ blockquote > i {
 #send-resume-form a:hover {
     color: #FFF;
 }
+.contact-details p {
+    margin: 0 !important;
+}
+.contact-details ul {
+    margin: 10px 0;
+}
+.contact-details .col-xs-3 p {
+    color: #4f758b;
+    font-weight: 600;
+}
+.panel-heading a:not(.collapsed) {
+    background: #4f758b;
+    color: #fff;
+    border-color: #4f758b;
+}
+.panel-heading a:hover i {
+    color: #4f758b;
+}
 #footer {
     background: linear-gradient(#4f758b, #2c4351);
     color: #ddd;
