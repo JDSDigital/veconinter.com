@@ -709,6 +709,9 @@ blockquote > i {
 .panel-heading a:hover i {
     color: #4f758b;
 }
+.panel-heading a:hover:after, .panel-heading a:hover:before {
+    background: #4f758b;
+}
 #footer {
     background: linear-gradient(#4f758b, #2c4351);
     color: #ddd;
