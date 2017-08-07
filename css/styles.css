@@ -161,7 +161,7 @@ a:hover {
     text-transform: uppercase;
     text-shadow: 3px 3px 5px rgba(0,0,0,0.7);
 }
-.services-slider-text h1,h2 {
+.services-slider-text h1, .services-slider-text h2 {
     color: #fff;
     font-weight: 600;
     margin-top: 10px;
@@ -571,18 +571,43 @@ blockquote > i {
     margin: 50px 0;
     /*background-color: rgba(255,255,255,0.4);*/
     /*background: linear-gradient(rgb(43,112,155), rgb(46,76,106));*/
-    background: linear-gradient(#4f758b, #2c4351);
+    /*background: linear-gradient(#4f758b, #2c4351);*/
     /*background-image: url("../img/diagonalbg.png");*/
     background-size: 100%;
     padding: 50px 0;
 }
 .values-row h2 {
-    color: #FFF;
+    /*color: #FFF;*/
 }
 .values-row img {
     margin: 20px auto;
 }
-.partners {
+.testimonials-row {
+    background: linear-gradient(#4f758b, #2c4351);
+}
+.testimonials-row h2 {
+    color: #FFF;
+}
+.testimonials-row .common-txtslider .Gabriel_owl_n, .testimonials-row .common-txtslider .Gabriel_owl_p {
+    background: transparent;
+    border: 2px solid #dadbdb;
+    color: #dadbdb;
+}
+.testimonials-row .common-txtslider .Gabriel_owl_n:hover, .testimonials-row .common-txtslider .Gabriel_owl_p:hover {
+    color: #e4002b;
+    border-color: #e4002b;
+}
+.testimonials-row .common-txtslider .url {
+    color: #4f758b;
+}
+.testimonials-row .common-txtslider .client_details {
+    color: #fff;
+}
+.testimonials-row .common-txtslider .desc {
+    color: #ddd;
+}
+.partners-row {
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 .partners a {
@@ -607,7 +632,14 @@ blockquote > i {
     transition: all 0.2s ease !important;
 }
 .news-container {
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
+    border: 1px solid #ddd;
+}
+.news-text {
+    padding: 20px 5px;
+}
+.news-description i {
+    margin-right: 5px;
 }
 .news-header h4 {
     color: #4f758b;
@@ -635,7 +667,7 @@ blockquote > i {
     margin: 0;
 }
 .news-description {
-    /*padding-top: 30px;*/
+    text-align: justify;
 }
 .related_posts_slide .related_title:hover {
     color: #4f758b;
