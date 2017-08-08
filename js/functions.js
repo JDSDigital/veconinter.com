@@ -29,10 +29,10 @@
 		site_dir = "rtl";
 	}
 	//----------> Site Preloader	
-	$(window).load(function() {	
+	$(window).load(function() {
          $('#preloader').fadeOut('slow', function(){
 			 $(this).remove();
-		  }); 
+		  });
     });
 	
 	$('.sign_up_logto_flip').on("click", function(){
