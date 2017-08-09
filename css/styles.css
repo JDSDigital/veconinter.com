@@ -326,8 +326,8 @@ a.img_popup > span {
     /*background: -webkit-linear-gradient(150deg, transparent 5%, #C8102E 5%, #e4002b 15%, transparent 15%, transparent 85%, #1b365d 85%, #1F2A44 100%);*/
     /*background: -moz-linear-gradient(150deg, transparent 10%, #C8102E 10%, #e4002b 20%, transparent 20%, transparent 85%, #1b365d 85%, #1F2A44 100%);*/
     /*background: linear-gradient(120deg, #1F2A44 0%, #1b365d 15%, transparent 15%, transparent 85%, #e4002b 85%, #C8102E 95%, transparent 95%, transparent 100%);*/
-    background: url("../img/diagonalbg.png");
-    background-size: auto 100%;
+    background-image: url("../img/diagonalbg.png");
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -344,6 +344,17 @@ a.img_popup > span {
 }
 .bg_services2 > div > .div-icons_con > div > .div-serv > .div-serv_con > .desc {
     color: #000 !important;
+}
+.div-serv-title {
+    font-size: 22px;
+    margin-top: 35px;
+}
+.div-serv-row {
+    height: 84px;
+    margin-bottom: 20px;
+}
+.div-serv > .col-xs-3 {
+    height: 84px;
 }
 .bg_vecogo {
     /*background-image: -moz-linear-gradient(150deg, transparent 55%, #C8102E 55%, #e4002b 55%, #e4002b 65%, #e4002b 65%, #1b365d 65%, #1b365d 65%, #1F2A44 100%);*/
@@ -371,6 +382,11 @@ a.img_popup > span {
 .img-vecoaccess {
     margin: 30px 0 10px 0 ;
     padding: 40px;
+}
+.img-laptop {
+    /*padding: 50px;*/
+    position: absolute;
+    bottom: 25px;
 }
 .img-app {
     margin-bottom: 80px;

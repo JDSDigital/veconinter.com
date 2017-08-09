@@ -30,8 +30,12 @@ $(function () {
         duplicated: true,
         pauseOnHover: true
     });
-    $('.main-slider').parallax({imageSrc: './img/03.jpg'});
-    $('.services-slider').parallax({imageSrc: './img/01.jpg'});
+
+    var headerImages = ['01.jpg', '02.jpg', '03.jpg', '04.jpg', '05.jpg', '06.jpg', '07.jpg', '08.jpg'];
+    var num = Math.floor(Math.random() * headerImages.length);
+
+    $('.main-slider').parallax({imageSrc: './img/header/full/' + headerImages[num]});
+    $('.services-slider').parallax({imageSrc: './img/header/full/' + headerImages[num]});
     //$('.values-row').parallax({imageSrc: './img/03.jpg'});
     $('.send-resume-block').parallax({imageSrc: './img/team2.jpg'});
 });
