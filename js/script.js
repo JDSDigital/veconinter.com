@@ -49,4 +49,34 @@ $(document).ready(function() {
         }
     });
 
+    $('#goal').on('click', function() {
+        $('#about-image').html('<div class="row">' +
+            '<img class="img-responsive m0a" src="./img/logo-spinner.png" alt="Veconinter ISO 9001" />' +
+            '</div>'
+        );
+    });
+    $('#mission').on('click', function() {
+        $('#about-image').html('<div class="row">' +
+            '<h4>Mission</h4>' +
+            '</div>'
+        );
+    });
+    $('#vision').on('click', function() {
+        $('#about-image').html('<div class="row">' +
+            '<h4>Vision</h4>' +
+            '</div>'
+        );
+    });
+    $('#policy').on('click', function() {
+        $('#about-image').html('<div class="row">' +
+            '<img class="img-responsive m0a" src="./img/ISO_9001.png" alt="Veconinter ISO 9001" />' +
+            '</div>'
+        );
+    });
+    $('#technology').on('click', function() {
+        $('#about-image').html('<div class="row">' +
+            '<h4>Technology</h4>' +
+            '</div>'
+        );
+    });
 });
