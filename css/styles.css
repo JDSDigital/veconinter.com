@@ -512,7 +512,7 @@ a.img_popup > span {
     width: 100%;
     height: 100%;
     z-index: 2;
-    background-color: rgba(0,0,0, 0.5);
+    background: rgba(0,0,0, 0.5);
     -webkit-transition: all 0.2s ease !important;
     -moz-transition: all 0.2s ease !important;
     -o-transition: all 0.2s ease !important;
@@ -520,7 +520,7 @@ a.img_popup > span {
     transition: all 0.2s ease !important;
 }
 .popular-post:hover span {
-    background-color: rgba(79, 117, 139, 0.8);
+    background: rgba(79, 117, 139, 0.8);
     -webkit-transition: all 0.2s ease !important;
     -moz-transition: all 0.2s ease !important;
     -o-transition: all 0.2s ease !important;
@@ -531,7 +531,7 @@ a.img_popup > span {
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 0 25px;
+    padding: 3px 25px;
     z-index: 3;
 }
 .popular-post .popular-post-text h6, .popular-post .popular-post-text p {
@@ -539,6 +539,9 @@ a.img_popup > span {
     text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
     margin: 0;
     padding: 0;
+}
+.popular-post .popular-post-text p {
+    color: #ddd;
 }
 .btn_a:not(.color1):hover {
     color: #4f758b;
