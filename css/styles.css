@@ -327,7 +327,7 @@ a.img_popup > span {
     /*background: -moz-linear-gradient(150deg, transparent 10%, #C8102E 10%, #e4002b 20%, transparent 20%, transparent 85%, #1b365d 85%, #1F2A44 100%);*/
     /*background: linear-gradient(120deg, #1F2A44 0%, #1b365d 15%, transparent 15%, transparent 85%, #e4002b 85%, #C8102E 95%, transparent 95%, transparent 100%);*/
     background-image: url("../img/diagonalbg.png");
-    background-size: 100%;
+    background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
