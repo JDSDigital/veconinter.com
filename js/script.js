@@ -16,9 +16,10 @@ $(function () {
     var headerImages = ['01.jpg', '02.jpg', '03.jpg', '04.jpg', '05.jpg', '06.jpg', '07.jpg'];
     var randomAll = Math.floor(Math.random() * headerImages.length);
     var randomMain = Math.floor(Math.random() * 2);
+    var randomSelect = Math.floor((Math.random() * (headerImages.length - 2)) + 2);
 
     $('.main-slider').parallax({imageSrc: './img/header/full/' + headerImages[randomMain]});
-    $('.services-slider').parallax({imageSrc: './img/header/full/' + headerImages[randomAll]});
+    $('.services-slider').parallax({imageSrc: './img/header/full/' + headerImages[randomSelect]});
     $('.send-resume-block').parallax({imageSrc: './img/team2.jpg'});
 
     /**
