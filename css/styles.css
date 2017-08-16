@@ -840,6 +840,16 @@ blockquote > i {
     margin-right: 10px;
     color: #4f758b;
 }
+.offer-block {
+    background: linear-gradient(#4f758b, #2c4351);
+    padding: 50px 0;
+}
+.offer-block h4, .offer-block p {
+    color: #fff;
+}
+.offer-block i {
+    margin-right: 10px;
+}
 .send-resume-block h4, .send-resume-block h6 {
     color: #FFF;
     font-weight: normal;
