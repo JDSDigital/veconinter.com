@@ -178,9 +178,292 @@
 			<div class="content_spacer clearfix">
 
 				<div class="content_block col-md-12 f_left">
-					<p>
-						<iframe src="https://ws.veconinter.com/Payments/payments.aspx?lang=en-us" width="100%" height="900" frameborder="0"></iframe>
-					</p>
+
+					<!-- Tabs Container -->
+					<div class="gabriel-home-tabs tabs1 ver_tabs upper_title about-tabs">
+						<nav>
+							<ul class="tabs-navigator">
+								<li><a data-content="paypal" class="selected" href="#">Paypal</a></li>
+								<li><a data-content="card" class="" href="#">Credit and Debit Card Payments</a></li>
+								<li><a data-content="local1" class="" href="#">Local Currency Payments (Colombia)</a></li>
+								<li><a data-content="local2" class="" href="#">Local Currency Payments (Venezuela)</a></li>
+							</ul>
+						</nav>
+
+						<ul class="tabs-body payment-form">
+							<li data-content="paypal" class="selected">
+
+								<form id="paymentinfoform" role="form" action="https://www.paypal.com/cgi-bin/webscr" target="_parent">
+									 <div class="form-group">
+										<span id="lblCliente" class="control-label">Customer Name:</span>
+										<div class="control-med">
+											<input type="text" id="cliente" class="form-control date">
+										</div>
+									</div>
+									<div class="form-group">
+										<span id="lblFacNum" class="control-label">Documents (Invoice A-XXXXX / Proforma A-XXXXX)</span>
+										<div class="control-med">
+											<textarea class="form-control date" rows="2" id="nro_factura"></textarea>
+										</div>
+									</div>
+									<div class="form-group">
+										<span id="lblObs" class="control-label">Observations:</span>
+										<div class="control-med">
+											<textarea class="form-control" rows="2" id="obs"></textarea>
+										</div>
+									</div>
+									<div class="form-group">
+										<span id="lblPais" class="control-label">Country:</span>
+										<div class="row">
+											<div class="control-med col-md-12">
+												<select id="pais" class="form-control input-sm">
+													<option value="Barbados">Barbados</option>
+													<option value="Brasil">Brasil</option>
+													<option value="Colombia">Colombia</option>
+													<option value="Costa Rica">Costa Rica</option>
+													<option value="Guyana">Guyana</option>
+													<option value="Honduras">Honduras</option>
+													<option value="Mexico">México</option>
+													<option value="Panama">Panamá</option>
+													<option value="Saint Maarten">Saint Maarten</option>
+													<option value="Trinidad y Tobago">Trinidad y Tobago</option>
+													<option value="USA">USA</option>
+													<option value="Venezuela">Venezuela</option>
+												</select>
+
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<span id="lblEmail" class="control-label">Email:</span>
+										<div class="row">
+											<div class="control-med col-md-12">
+												<input type="text" id="correo" class="form-control" value="">
+											</div>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<span id="lblMonto" class="control-label">Amount:</span>
+										<div class="row">
+											<div class="col-md-12">
+												<input type="text" id="monto" class="form-control" value="">
+											</div>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<span id="lblFee" class="control-label">Paypal Fee:</span>
+										<div class="row">
+											<div class="col-md-12">
+												<input type="text" id="fee" class="form-control" value="">
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<span id="lblMontoTotal" class="control-label">Total to Pay:</span>
+										<div class="row">
+											<div class="col-md-12">
+												<input type="text" id="montoTotal" class="form-control" value="">
+											</div>
+										</div>
+									</div>
+
+									<input type="hidden" name="cmd" value="_cart">
+									<input type="hidden" name="upload" value="1">
+									<input type="hidden" name="business" value="jcanavesi@veconinter.com">
+									<input type="hidden" name="item_name_1" id="item_name_1" value="">
+									<input type="hidden" name="item_number_1" id="item_number_1" value="">
+									<input type="hidden" name="amount_1" id="amount_1" value="">
+									<input type="hidden" name="item_name_2" id="item_name_2" value="Cargo Paypal">
+									<input type="hidden" name="amount_2" id="amount_2" value="">
+									<input type="hidden" name="currency_code" value="USD">
+									<input type="hidden" name="cancel_return" value="http://www.veconinter.com">
+										  <br>
+
+									<div class="form-group">
+										<div class="row">
+											<div class="col-md-12 text-left">
+												<input type="image" src="./img/paypal.png" alt="Pagar con Paypal" name="btn_paypal" id="btn_paypal" />
+											</div>
+										</div>
+									</div>
+
+								</form>
+							</li>
+
+							<li data-content="card">
+								<form method="post" action="./payments.aspx?lang=en-us" id="Form1" role="form">
+
+									<div class="form-group">
+										<span id="Label4" class="control-label">Documents (Invoice A-XXXXX)</span>
+										<div class="control-med-pz">
+											<textarea name="nro_factura_py" id="nro_factura_py" class="form-control date" rows="1"></textarea>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<span id="Label5" class="control-label">Reference</span>
+										<div class="control-med-pz">
+											<textarea name="obs_py" id="obs_py" class="form-control" rows="1"></textarea>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<span id="Label6" class="control-label">Country:</span>
+										<div class="row">
+											<div class="control-med-pz col-md-12">
+												<select name="pais_py" id="pais_py" class="form-control input-sm">
+													<option value="Barbados">Barbados</option>
+													<option value="Brasil">Brasil</option>
+													<option value="Colombia">Colombia</option>
+													<option value="Costa Rica">Costa Rica</option>
+													<option value="Guyana">Guyana</option>
+													<option value="Honduras">Honduras</option>
+													<option value="México">México</option>
+													<option value="Panamá">Panamá</option>
+													<option value="Saint Maarten">Saint Maarten</option>
+													<option value="Trinidad y Tobago">Trinidad y Tobago</option>
+													<option value="USA">USA</option>
+													<option value="Venezuela">Venezuela</option>
+
+												</select>
+                                    		</div>
+                                		</div>
+                            		</div>
+
+									<div class="form-group">
+										<span id="Label7" class="control-label">Email:</span>
+										<div class="row">
+											<div class="control-med-pz col-md-12">
+												<input type="text" id="correo_py" class="form-control input-sm" value="">
+											</div>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<span id="lblTarjNom" class="control-label">Cardholder Name  (As shown in card):</span>
+										<div class="row">
+											<div class="control-med-pz col-md-12">
+												<input type="text" id="nombre_tarjeta_py" class="form-control input-sm" value="">
+											</div>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<span id="Label8" class="control-label">Card Number:</span>
+										<div class="row">
+											<div class="control-med-pz col-md-12">
+												<input type="text" id="nro_tarjeta_py" class="form-control input-sm" value="" maxlength="16">
+											</div>
+											<div class="control-med col-md-1">
+												<img src="Images/visa.png">
+												<img src="Images/mastercard.png">
+												<img src="Images/amex.png">
+												<img src="Images/diners_club.png">
+											</div>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<span id="lblCodSec" class="control-label">Security Code:</span>
+										<div class="row">
+											<div class="control-med-pz col-md-5">
+												 <div class="control-med-pz">
+													 <input type="password" id="codSec_py" class="form-control input-sm" value="" maxlength="4">
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<span id="lblFecExp" class="control-label">Expiry Date:</span>
+										<div class="row">
+											<div class="col-md-2">
+												<select id="exp_month_py" class="form-control input-sm">
+													<option value="01" selected="selected">01</option>
+													<option value="02">02</option>
+													<option value="03">03</option>
+													<option value="04">04</option>
+													<option value="05">05</option>
+													<option value="06">06</option>
+													<option value="07">07</option>
+													<option value="08">08</option>
+													<option value="09">09</option>
+													<option value="10">10</option>
+													<option value="11">11</option>
+													<option value="12">12</option>
+												</select>
+											</div>
+											<div class="col-md-3">
+												<select id="exp_year_py" class="form-control input-sm">
+													<option value="16" selected="selected">2016</option>
+													<option value="17">2017</option>
+													<option value="18">2018</option>
+													<option value="19">2019</option>
+													<option value="20">2020</option>
+													<option value="21">2021</option>
+													<option value="22">2022</option>
+													<option value="23">2023</option>
+													<option value="24">2024</option>
+													<option value="25">2025</option>
+													<option value="26">2026</option>
+													<option value="27">2027</option>
+													<option value="28">2028</option>
+													<option value="29">2029</option>
+													<option value="30">2030</option>
+												</select>
+											</div>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<span id="Label9" class="control-label">Amount:</span>
+										<div class="row">
+											<div class="col-md-12 control-med-pz-tiny">
+												<input name="amount_py" type="text" id="amount_py" class="form-control input-sm">
+											</div>
+										</div>
+									</div>
+
+									 <div class="form-group">
+										<span id="lblCargo" class="control-label">Transaction Fee:</span>
+										<div class="row">
+											<div class="col-md-12 control-med-pz-tiny">
+												<input name="fee_py" type="text" id="fee_py" class="form-control input-sm" readonly="">
+											</div>
+										</div>
+									</div>
+
+									 <div class="form-group">
+										<span id="lblTotal" class="control-label">Total to Pay:</span>
+										<div class="row">
+											<div class="col-md-12 control-med-pz-tiny">
+												<input name="montotal_py" type="text" id="montotal_py" class="form-control input-sm" readonly="">
+											</div>
+										</div>
+									</div>
+
+									<div class="form-group">
+										<input type="submit" name="ValidateCaptchaButton" value="Make Payment" id="ValidateCaptchaButton" class="btn btn-success">
+									</div>
+
+								</form>
+							</li>
+
+							<li data-content="local1">
+								<p>This new feature will allow you to make payments through Electronic Banking in Colombia, just click the button "Make Payment" and you will be redirected to the local site and finalize the transaction.</p>
+								<input name="btn_paycol" type="button" id="btn_paycol" class="btn btn-success" value="Make Payment" />
+							</li>
+
+							<li data-content="local2">
+								<p>This new feature will allow you to make payments through Electronic Banking in Venezuela, just click the button "Make Payment" and you will be redirected to the local site and finalize the transaction.</p>
+								<input name="btn_payve" type="button" id="btn_payve" class="btn btn-success" value="Make Payment" />
+							</li>
+
+						</ul>
+					</div>
+					<!-- End Tabs Container -->
 				</div>
 
 			</div>

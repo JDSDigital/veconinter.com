@@ -960,8 +960,8 @@ blockquote > i {
     color: #fff;
     background-color: #4f758b;
 }
-.job-offer-view h4 {
-    margin-bottom: 10px;
+.job-offer-view h2, .job-offer-view h4 {
+    margin: 0 0 10px 0;
     color: #333;
 }
 .job-offer-view h6 {
@@ -1021,6 +1021,16 @@ blockquote > i {
 }
 
 /* END CONTACT */
+
+/* PAYMENTS */
+.payment-form {
+    color: #333;
+}
+#btn_paypal {
+    max-width: 200px;
+}
+
+/* PAYMENTS FORM */
 
 /* FOOTER */
 
