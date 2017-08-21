@@ -45,12 +45,14 @@ $(function () {
     $('#mission').on('click', function() {
         $('#about-image').html('<div class="row text-center">' +
             '<h4>Mission</h4>' +
+            '<img class="img-responsive m0a" src="./images/toltip1.png" alt="Veconinter ISO 9001" />' +
             '</div>'
         );
     });
     $('#vision').on('click', function() {
         $('#about-image').html('<div class="row text-center">' +
             '<h4>Vision</h4>' +
+            '<img class="img-responsive m0a" src="./images/toltip1.png" alt="Veconinter ISO 9001" />' +
             '</div>'
         );
     });
@@ -63,6 +65,7 @@ $(function () {
     $('#technology').on('click', function() {
         $('#about-image').html('<div class="row text-center">' +
             '<h4>Technology</h4>' +
+            '<img class="img-responsive m0a" src="./images/toltip1.png" alt="Veconinter ISO 9001" />' +
             '</div>'
         );
     });
