@@ -467,6 +467,19 @@ a.img_popup > span {
     max-width: 100%;
     max-height: 100%;
 }
+.hm_blog_grid .feature_inner {
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hm_blog_grid .blog_grid_con {
+    height: 260px;
+}
+.blog_grid_block .desc {
+    text-align: justify;
+}
 
 /* END HOME */
 
@@ -710,6 +723,12 @@ blockquote > i {
 .about-tabs {
     height: 450px;
 }
+.about-tabs p {
+    text-align: justify;
+}
+#about-image img {
+    max-height: 120px;
+}
 .values-row {
     margin: 50px 0;
     /*background-color: rgba(255,255,255,0.4);*/
@@ -740,6 +759,18 @@ blockquote > i {
 .testimonials-row .common-txtslider .Gabriel_owl_n:hover, .testimonials-row .common-txtslider .Gabriel_owl_p:hover {
     color: #e4002b;
     border-color: #e4002b;
+}
+.common-txtslider.client_say_slider .owl-prev {
+    left: -30px;
+}
+.common-txtslider.client_say_slider .owl-next {
+    right: -30px;
+}
+.common-txtslider .owl-prev {
+    left: 0;
+}
+.common-txtslider .owl-next {
+    right: 0;
 }
 .testimonials-row .common-txtslider .url {
     color: #1b365d;
@@ -859,6 +890,9 @@ blockquote > i {
 
 /* CAREERS */
 
+.careers-text p {
+    text-align: justify;
+}
 .careers-text h6 {
     color: #4f758b;
 }
@@ -1074,6 +1108,9 @@ blockquote > i {
 }
 .arrow_button {
     border-color: #4f758b;
+}
+.footer_row .footer_txt {
+    text-align: justify;
 }
 
 /* END FOOTER */
