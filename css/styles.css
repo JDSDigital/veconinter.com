@@ -236,24 +236,24 @@ a:hover {
     font-weight: 600;
     margin-top: 10px;
 }
-.services-slider {
-    height: 350px;
+.secondary-slider {
+    height: 270px;
     margin-top: -83px;
     background-color: rgba(0,0,0,0.1);
     /*background-image: url('../img/02.jpg');*/
     /*background-size: 100%;*/
     /*background-position: center;*/
 }
-.services-slider img {
+.secondary-slider img {
     margin: 0 auto;
     /*background-color: rgba(0,0,0,0.1);*/
 }
-.services-slider-text {
+.secondary-slider-text {
     margin-top: 100px;
     text-transform: uppercase;
     text-shadow: 3px 3px 5px rgba(0,0,0,0.7);
 }
-.services-slider-text h1, .services-slider-text h2 {
+.secondary-slider-text h1, .secondary-slider-text h2 {
     color: #fff;
     font-weight: 600;
     margin-top: 10px;

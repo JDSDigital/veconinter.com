@@ -19,7 +19,7 @@ $(function () {
     var randomSelect = Math.floor((Math.random() * (headerImages.length - 2)) + 2);
 
     $('.main-slider').parallax({imageSrc: './img/header/full/' + headerImages[randomMain]});
-    $('.services-slider').parallax({imageSrc: './img/header/full/' + headerImages[randomSelect]});
+    $('.secondary-slider').parallax({imageSrc: './img/header/full/' + headerImages[randomSelect]});
     $('.send-resume-block').parallax({imageSrc: './img/team2.jpg'});
 
     /**
