@@ -761,10 +761,10 @@ blockquote > i {
     border-color: #e4002b;
 }
 .common-txtslider.client_say_slider .owl-prev {
-    left: -30px;
+    left: -45px;
 }
 .common-txtslider.client_say_slider .owl-next {
-    right: -30px;
+    right: -45px;
 }
 .common-txtslider .owl-prev {
     left: 0;
@@ -781,7 +781,7 @@ blockquote > i {
     font-size: 18px;
 }
 .testimonials-row .common-txtslider .desc {
-    margin-top: 30px;
+    margin-top: 15px;
     color: #fff;
     font-size: 24px;
     line-height: 36px;
