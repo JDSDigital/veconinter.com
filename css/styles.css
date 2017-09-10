@@ -481,6 +481,28 @@ a.img_popup > span {
     text-align: justify;
 }
 
+.banner-separator.total_color, .banner-separator.boxed_colored {
+    background: #4f758b;
+    color: #fff;
+}
+#eBook h4 {
+    margin-bottom: 10px;
+    /*color: #fff;*/
+}
+#eBook input {
+    margin-bottom: 10px;
+    width: 50%;
+}
+#eBook .modal-body {
+    background: url("../img/diagonalbg.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#eBook .modal-header {
+    background-color: #4f758b;
+}
+
 /* END HOME */
 
 /* BLOG */
