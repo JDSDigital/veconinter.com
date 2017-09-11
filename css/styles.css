@@ -210,6 +210,17 @@ a:hover {
     text-decoration: none;
 }
 
+.light_header .topmenu-social > a > span.social-bigico {
+    background: #4f758b;
+}
+.topmenu-social.socials-div > a > span.social-bigico {
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -ms-border-radius: 3px 3px 3px 3px;
+    -o-border-radius: 3px 3px 3px 3px;
+}
+
 /* END NAVBAR */
 
 /* SLIDER */
@@ -397,7 +408,7 @@ a.img_popup > span {
 .bg_vecogo2 {
     /*background-image: -moz-linear-gradient(150deg, transparent 55%, #C8102E 55%, #e4002b 55%, #e4002b 65%, #e4002b 65%, #1b365d 65%, #1b365d 65%, #1F2A44 100%);*/
     /*background-image: -webkit-linear-gradient(150deg, transparent 55%, #C8102E 55%, #e4002b 55%, #e4002b 65%, #e4002b 65%, #1b365d 65%, #1b365d 65%, #1F2A44 100%);*/
-    background: url("../img/diagonalbg6.png");
+    background: url("../img/diagonalbg7.png");
     background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
