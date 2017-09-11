@@ -21,6 +21,7 @@ $(function () {
     $('.main-slider').parallax({imageSrc: './img/header/full/' + headerImages[randomMain]});
     $('.secondary-slider').parallax({imageSrc: './img/header/full/' + headerImages[randomSelect]});
     $('.send-resume-block').parallax({imageSrc: './img/team2.jpg'});
+    $('.values-row').parallax({imageSrc: './img/values.jpg'});
 
     /**
      * Top nav bar opacity change on scroll
