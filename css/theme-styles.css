@@ -946,7 +946,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     color: #aaa;
 }
 #navy li.mato_menu ul:after,  #navy li.has_gabriel-big-menu > ul:after{
-    background: #1CCDCA;
+    /*background: #1CCDCA;*/
     content: "";
     display: block;
     height: 1px;
@@ -2689,10 +2689,10 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     width: 11px;
 }
 .div-icons_con.style1 .div-serv .ser-box-link:hover {
-	border-color:#1CCDCA;
+	border-color:#4f758b;
 }
 .div-icons_con.style1 .div-serv .ser-box-link:hover > span, .div-icons_con.style1 .div-serv .ser-box-link:hover > span:after{
-	background: #1CCDCA;
+	background: #4f758b;
 }
 .div-icons_con.style1 .div-serv > .icon i.color1 {
     background: #92c135;
@@ -2848,11 +2848,11 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 }
 .div-icons_con.style1.solid_icon .div-serv > .icon:after, .div-icons_con.style2.solid_icon .div-serv .icon:after {
     background: #fff;
-    border: 1px solid #1ccdca;
+    border: 1px solid #4f758b;
 }
 .div-icons_con.style1.solid_icon .div-serv > .icon i{
 	background: #fff;
-	color:#1ccdca;
+	color:#4f758b;
 }
 .div-icons_con.style2.solid_icon .div-serv .icon i{
 	background:none;
@@ -2888,7 +2888,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 }
 .div-icons_con.style1.circle.just_icon_border.solid_icon:not(.radius5) .div-serv > .icon:before, 
 .div-icons_con.style2.solid_icon .div-serv > .icon:before{
-    background: #1CCDCA;
+    background: #4f758b;
     content: "";
     display: block;
     height: 100%;
@@ -2967,14 +2967,14 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 .div-icons_con.style1.solid_icon.radius5 .div-serv:hover > .icon:after, 
 .div-icons_con.style1.solid_icon.radius5 .div-serv:hover > .icon i, 
 .div-icons_con.style1.circle.just_icon_border.solid_icon .div-serv:hover > span i {
-	background: #1ccdca;
+	background: #4f758b;
 	color:#fff;
 }
 .div-icons_con.style2.solid_icon .div-serv:hover > .icon i{
 	color:#fff;
 }
 .div-serv:hover h3{
-	color:#1CCDCA;
+	#4f758b
 }
 .div-icons_con.style1.circle:not(.just_icon_border) .div-serv:hover > .icon i {
     height: 88px;
