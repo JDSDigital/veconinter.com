@@ -1149,6 +1149,16 @@ blockquote > i {
 #btn_paypal {
     max-width: 200px;
 }
+.payments-ebook {
+    background: linear-gradient(#4f758b, #2c4351);
+    padding: 50px 25px;
+}
+.payments-ebook h3, .payments-ebook p {
+    color: #FFF;
+}
+.payments-ebook.banner-separator.total_color .btn_a {
+    margin: 0 auto !important;
+}
 
 /* PAYMENTS FORM */
 
