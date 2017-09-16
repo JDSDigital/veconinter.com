@@ -253,27 +253,37 @@ a:hover {
 
 /* SLIDER */
 
-.main-slider {
-    height: 450px;
+.main-slider, .landing-slider {
+    height: 550px;
     margin-top: -83px;
     background-color: rgba(0,0,0,0.1);
     /*background-image: url('../img/02.jpg');*/
     /*background-size: 100%;*/
     /*background-position: center;*/
 }
-.main-slider img {
+.main-slider img, .landing-slider img {
     margin: 0 auto;
     /*background-color: rgba(0,0,0,0.1);*/
 }
 .main-slider-text {
     margin-top: 100px;
-    text-transform: uppercase;
     text-shadow: 3px 3px 5px rgba(0,0,0,0.7);
 }
-.main-slider-text h1,h2 {
+.main-slider-text h1, .main-slider-text h2 {
     color: #fff;
     font-weight: 600;
     margin-top: 10px;
+    text-transform: uppercase;
+}
+.main-slider-text p {
+    color: #fff;
+}
+.landing-slider .main-slider-text {
+    margin-top: 200px;
+}
+.landing-slider .main-slider-text .btn-login {
+    margin: 10px 0;
+    border: none;
 }
 .secondary-slider {
     height: 270px;
@@ -437,6 +447,14 @@ a.img_popup > span {
     /*background-image: -moz-linear-gradient(150deg, transparent 55%, #C8102E 55%, #e4002b 55%, #e4002b 65%, #e4002b 65%, #1b365d 65%, #1b365d 65%, #1F2A44 100%);*/
     /*background-image: -webkit-linear-gradient(150deg, transparent 55%, #C8102E 55%, #e4002b 55%, #e4002b 65%, #e4002b 65%, #1b365d 65%, #1b365d 65%, #1F2A44 100%);*/
     background: url("../img/diagonalbg7.png");
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg_vecogo3 {
+    /*background-image: -moz-linear-gradient(150deg, transparent 55%, #C8102E 55%, #e4002b 55%, #e4002b 65%, #e4002b 65%, #1b365d 65%, #1b365d 65%, #1F2A44 100%);*/
+    /*background-image: -webkit-linear-gradient(150deg, transparent 55%, #C8102E 55%, #e4002b 55%, #e4002b 65%, #e4002b 65%, #1b365d 65%, #1b365d 65%, #1F2A44 100%);*/
+    background: url("../img/diagonalbg6.png");
     background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -803,7 +821,7 @@ blockquote > i {
 }
 .values-row {
     /*margin: 50px 0;*/
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8));
+    background: rgba(0,0,0,0.4);
     /*background: linear-gradient(rgb(43,112,155), rgb(46,76,106));*/
     /*background: linear-gradient(#4f758b, #2c4351);*/
     /*background-image: url("../img/diagonalbg.png");*/
@@ -817,11 +835,11 @@ blockquote > i {
     margin: 20px auto;
 }
 .container-values {
-    border: 1px solid white;
+    border: 1px solid #333;
     margin-bottom: 30px;
     height: 230px;
     padding: 30px;
-    background: linear-gradient(rgba(46,76,106,0.8), rgba(8,40,58,0.8));
+    background: linear-gradient(rgba(46,76,106,1), rgba(8,40,58,1));
 }
 .container-values i {
     font-size: 36px;
