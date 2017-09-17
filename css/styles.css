@@ -1025,7 +1025,7 @@ blockquote > i {
     font-weight: normal;
     text-shadow: 1px 1px 3px black;
 }
-#send-resume-form {
+#send-resume-form, #send-resume-form h2 {
     color: #FFF;
 }
 #send-resume-form .row{
