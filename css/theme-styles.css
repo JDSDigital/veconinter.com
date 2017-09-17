@@ -2764,7 +2764,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     top: 5px;
 }
 .div-icons_con.style2 .div-serv .ser-box-link > span:after {
-    background: #1ccdca;
+    background: #4f758b;
     content: "";
     display: block;
     height: 6px;
@@ -2779,7 +2779,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     width: 2px;
 }
 .div-icons_con.style2 .div-serv .ser-box-link > span:before {
-    background: #1ccdca;
+    background: #4f758b;
     content: "";
     display: block;
     height: 6px;
@@ -2856,7 +2856,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 }
 .div-icons_con.style2.solid_icon .div-serv .icon i{
 	background:none;
-	color:#1ccdca;
+	color: #4f758b;
 	position:relative;
 	z-index: 1;
 }

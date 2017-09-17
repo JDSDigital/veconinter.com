@@ -24,6 +24,7 @@ $(function () {
     $('.values-row').parallax({imageSrc: './img/values.jpg'});
     $('.banner-vecoaccess').parallax({imageSrc: './img/type-away-vecoaccess.jpg'});
     $('.landing-slider').parallax({imageSrc: './img/slider-vecoaccess.jpg'});
+    $('.landing-slider-2').parallax({imageSrc: './img/user-phone.jpg'});
     $('.landing-container').parallax({imageSrc: './img/header/full/01.jpg'});
 
     /**

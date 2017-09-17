@@ -47,7 +47,7 @@
     font-style: italic;
 }
 
-body, h1, h2, h3, h4, h5, h6, .desc {
+body, h1, h2, h3, h4, h5, h6, .desc, .ser-box-link {
     font-family: 'Gotham', 'Montserrat', Helvetica, Arial, sans-serif !important;
 }
 .vertical-align {
@@ -253,15 +253,15 @@ a:hover {
 
 /* SLIDER */
 
-.main-slider, .landing-slider {
-    height: 550px;
+.main-slider, .landing-slider, .landing-slider-2 {
+    height: 600px;
     margin-top: -83px;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.2);
     /*background-image: url('../img/02.jpg');*/
     /*background-size: 100%;*/
     /*background-position: center;*/
 }
-.main-slider img, .landing-slider img {
+.main-slider img, .landing-slider img, .landing-slider-2 img  {
     margin: 0 auto;
     /*background-color: rgba(0,0,0,0.1);*/
 }
@@ -281,7 +281,10 @@ a:hover {
 .landing-slider .main-slider-text {
     margin-top: 200px;
 }
-.landing-slider .main-slider-text .btn-login {
+.landing-slider-2 .main-slider-text h1 {
+    margin-top: 100px;
+}
+.landing-slider .main-slider-text .btn-login, .landing-slider-2 .main-slider-text .btn-login {
     margin: 10px 0;
     border: none;
 }
