@@ -1161,7 +1161,85 @@ blockquote > i {
     background: #4f758b;
 }
 
-/* END CONTACT */
+/* NEW */
+
+.country-section .col-md-3 {
+    padding: 0;
+    margin: 0;
+}
+.country-image {
+    display: inline-block;
+    position:relative;
+}
+.country-image:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -moz-box-shadow: inset 0px 0px 150px 30px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: inset 0px 0px 150px 30px rgba(0, 0, 0, 0.8);
+    box-shadow: inset 0px 0px 150px 30px rgba(0, 0, 0, 0.8);
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+}
+.country-image:hover:before {
+    -moz-box-shadow: inset 0px 0px 150px 0px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: inset 0px 0px 150px 0px rgba(0, 0, 0, 0.8);
+    box-shadow: inset 0px 0px 150px 0px rgba(0, 0, 0, 0.8);
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+}
+.country-text {
+    left: 0;
+    color: #FFF;
+    position:absolute;
+    text-align:center;
+    top: 50%;
+    bottom: 50%;
+    width: 100%
+}
+.country-text h4 {
+    margin: 0;
+    color: #FFF;
+}
+.country-link {
+    cursor: pointer;
+}
+.country-office {
+    /*background: linear-gradient(rgba(234,43,42,1), rgba(153,10,24,1));*/
+    /*background: linear-gradient(rgba(46,76,106,1), rgba(8,40,58,1));*/
+    /*color: rgba(234,43,42,1);*/
+    color: #FFF;
+}
+.country-office h6 {
+    margin: 0;
+    color: #FFF !important;
+}
+#country-modal {
+    /*background: linear-gradient(rgba(46,76,106,1), rgba(8,40,58,1));*/
+}
+#country-modal .modal-content {
+    /*background: linear-gradient(rgba(46,76,106,1), rgba(8,40,58,1));*/
+    /*background: linear-gradient(rgba(43,112,155,1), rgba(46,76,106,1));*/
+    /*background-color: rgba(55,74,90,1);*/
+    background-color: rgba(79,115,134,1);
+    color: #FFF;
+}
+#country-modal button {
+    color: #000;
+}
+.contact-form {
+    margin: 90px 0;
+}
+.modal {
+    background: rgba(0,0,0,0.5);
+}
+
+    /* END CONTACT */
 
 /* PAYMENTS */
 .payment-form {
