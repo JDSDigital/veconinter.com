@@ -80,7 +80,7 @@ $(function () {
         var country = $(this).attr('id');
 
         if (country == 'usa') {
-            $('.modal-body').html('<button type="button" class="close" data-dismiss="modal">&times;</button>' +
+            $('.modal-body').html('' +
                 '<div class="table-responsive">' +
                     '<table class="table">' +
                         '<tr>' +
@@ -108,7 +108,7 @@ $(function () {
                 '</div>'
             );
         } else if (country == 'barbados') {
-            $('.modal-body').html('<button type="button" class="close" data-dismiss="modal">&times;</button>' +
+            $('.modal-body').html('' +
                 '<div class="table-responsive">' +
                     '<table class="table">' +
                         '<tr>' +
@@ -134,7 +134,7 @@ $(function () {
             );
 
         } else if (country == 'brasil') {
-            $('.modal-body').html('<button type="button" class="close" data-dismiss="modal">&times;</button>' +
+            $('.modal-body').html('' +
                 '<div class="table-responsive">' +
                     '<table class="table">' +
                         '<tr>' +
@@ -160,7 +160,7 @@ $(function () {
             );
 
         } else if (country == 'colombia') {
-            $('.modal-body').html('<button type="button" class="close" data-dismiss="modal">&times;</button>' +
+            $('.modal-body').html('' +
                 '<div class="table-responsive">' +
                     '<table class="table">' +
                         '<tr>' +
@@ -242,7 +242,7 @@ $(function () {
             );
 
         } else if (country == 'costarica') {
-            $('.modal-body').html('<button type="button" class="close" data-dismiss="modal">&times;</button>' +
+            $('.modal-body').html('' +
                 '<div class="table-responsive">' +
                     '<table class="table">' +
                         '<tr>' +
@@ -270,7 +270,7 @@ $(function () {
             );
 
         } else if (country == 'fiji') {
-            $('.modal-body').html('<button type="button" class="close" data-dismiss="modal">&times;</button>' +
+            $('.modal-body').html('' +
                 '<div class="table-responsive">' +
                     '<table class="table">' +
                         '<tr>' +
@@ -295,7 +295,7 @@ $(function () {
             );
 
         } else if (country == 'guyana') {
-            $('.modal-body').html('<button type="button" class="close" data-dismiss="modal">&times;</button>' +
+            $('.modal-body').html('' +
                 '<div class="table-responsive">' +
                     '<table class="table">' +
                         '<tr>' +
@@ -320,7 +320,7 @@ $(function () {
             );
 
         } else if (country == 'haiti') {
-            $('.modal-body').html('<button type="button" class="close" data-dismiss="modal">&times;</button>' +
+            $('.modal-body').html('' +
                 '<div class="table-responsive">' +
                     '<table class="table">' +
                         '<tr>' +
@@ -345,7 +345,7 @@ $(function () {
             );
 
         } else if (country == 'honduras') {
-            $('.modal-body').html('<button type="button" class="close" data-dismiss="modal">&times;</button>' +
+            $('.modal-body').html('' +
                 '<div class="table-responsive">' +
                     '<table class="table">' +
                         '<tr>' +
@@ -371,7 +371,7 @@ $(function () {
             );
 
         } else if (country == 'mexico') {
-            $('.modal-body').html('<button type="button" class="close" data-dismiss="modal">&times;</button>' +
+            $('.modal-body').html('' +
                 '<div class="table-responsive">' +
                     '<table class="table">' +
                         '<tr>' +
@@ -396,7 +396,7 @@ $(function () {
             );
 
         } else if (country == 'panama') {
-            $('.modal-body').html('<button type="button" class="close" data-dismiss="modal">&times;</button>' +
+            $('.modal-body').html('' +
                 '<div class="table-responsive">' +
                     '<table class="table">' +
                         '<tr>' +
@@ -421,7 +421,7 @@ $(function () {
             );
 
         } else if (country == 'puertorico') {
-            $('.modal-body').html('<button type="button" class="close" data-dismiss="modal">&times;</button>' +
+            $('.modal-body').html('' +
                 '<div class="table-responsive">' +
                     '<table class="table">' +
                         '<tr>' +
@@ -447,7 +447,7 @@ $(function () {
             );
 
         } else if (country == 'sintmaarten') {
-            $('.modal-body').html('<button type="button" class="close" data-dismiss="modal">&times;</button>' +
+            $('.modal-body').html('' +
                 '<div class="table-responsive">' +
                     '<table class="table">' +
                         '<tr>' +
@@ -473,7 +473,7 @@ $(function () {
             );
 
         } else if (country == 'trinidad') {
-            $('.modal-body').html('<button type="button" class="close" data-dismiss="modal">&times;</button>' +
+            $('.modal-body').html('' +
                 '<div class="table-responsive">' +
                     '<table class="table">' +
                         '<tr>' +
@@ -515,7 +515,7 @@ $(function () {
             );
 
         } else if (country == 'venezuela') {
-            $('.modal-body').html('<button type="button" class="close" data-dismiss="modal">&times;</button>' +
+            $('.modal-body').html('' +
                 '<div class="table-responsive">' +
                     '<table class="table">' +
                         '<tr>' +
@@ -645,11 +645,8 @@ $(function () {
                     '<button class="mato_button medium_btn bottom_space" data-dismiss="modal">Close</button>' +
                 '</div>'
             );
-
         }
-
-
-
-            $('#country-modal').modal('toggle');
+        /* <button type="button" class="close" data-dismiss="modal">&times;</button> */
+        $('#country-modal').modal('toggle');
     })
 });
