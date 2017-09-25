@@ -853,6 +853,7 @@ blockquote > i {
 .testimonials-row {
     /*background: linear-gradient(#4f758b, #2c4351);*/
     background: linear-gradient(rgba(79,115,134,0.8), rgb(79,115,134));
+    height: 520px;
 }
 .testimonials-row h2 {
     color: #FFF;
@@ -1158,6 +1159,11 @@ blockquote > i {
 }
 .panel-heading a:hover:after, .panel-heading a:hover:before {
     background: #4f758b;
+}
+.new-col {
+    width: 20%;
+    float: left;
+    position: relative;
 }
 
 /* NEW */

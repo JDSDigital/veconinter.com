@@ -43,6 +43,7 @@ $(function () {
      */
     $('#goal').on('click', function() {
         $('#about-image').html('<div class="row text-center">' +
+            '<h4>About</h4>' +
             '<img class="img-responsive m0a" src="./img/logo-spinner.png" alt="Veconinter ISO 9001" />' +
             '</div>'
         );
