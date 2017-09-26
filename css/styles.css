@@ -545,21 +545,21 @@ a.img_popup > span {
     background: #4f758b;
     color: #fff;
 }
-#eBook h4 {
+#eBook h4, #contact h4 {
     margin-bottom: 10px;
     /*color: #fff;*/
 }
-#eBook input {
+#eBook input, #contact input, #contact select, #contact textarea {
     margin-bottom: 10px;
     width: 50%;
 }
-#eBook .modal-body {
+#eBook .modal-body, #contact .modal-body {
     background: url("../img/diagonalbg.png");
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
-#eBook .modal-header {
+#eBook .modal-header, #contact .modal-header{
     background-color: #4f758b;
 }
 
@@ -730,6 +730,21 @@ blockquote > i {
     width:100%;
     height:100%;
 }
+.service-link .container-values {
+    -webkit-transition: all 0.2s ease !important;
+    -moz-transition: all 0.2s ease !important;
+    -o-transition: all 0.2s ease !important;
+    -ms-transition: all 0.2s ease !important;
+    transition: all 0.2s ease !important;
+}
+.service-link .container-values:hover {
+    -webkit-transition: all 0.2s ease !important;
+    -moz-transition: all 0.2s ease !important;
+    -o-transition: all 0.2s ease !important;
+    -ms-transition: all 0.2s ease !important;
+    transition: all 0.2s ease !important;
+    background: linear-gradient(rgb(46, 100, 130), rgb(9, 71, 90));
+}
 /*
 .container-services .btn {
     color: white;
@@ -785,7 +800,7 @@ blockquote > i {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6));
     /*background-image: url("../img/type-away-vecoaccess.jpg");*/
     background-size: 100%;
-    height: 250px;
+    height: 215px;
 }
 .banner-vecoaccess h3, .banner-vecoaccess .intro_text {
     color: #FFF;
@@ -1003,12 +1018,12 @@ blockquote > i {
 .careers-text h6 {
     color: #4f758b;
 }
-.careers-text ul {
-    margin-left: 50px;
+.careers-text ul li {
+    margin-bottom: 10px;
 }
 .careers-text i {
     margin-right: 10px;
-    color: #4f758b;
+    color: #2c4351;
 }
 .offer-block {
     background: linear-gradient(#4f758b, #2c4351);
@@ -1121,6 +1136,7 @@ blockquote > i {
     border: 1px solid #ccc;
     text-align: center;
     padding: 15px;
+    margin: 0 15px;
     color: #333;
 }
 .send-linkedin .btn {
