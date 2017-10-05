@@ -4044,7 +4044,7 @@ a.img_popup:after {
     overflow: hidden;
 }
 .wrap-homefilter_con {
-    margin-top: 40px;
+    /*margin-top: 40px;*/
 }
 #options.sort_options {
     padding: 0 15px;

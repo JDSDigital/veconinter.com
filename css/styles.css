@@ -843,7 +843,6 @@ blockquote > i {
     /*background: linear-gradient(#4f758b, #2c4351);*/
     /*background-image: url("../img/diagonalbg.png");*/
     background-size: 100%;
-    padding: 50px 0;
 }
 .values-row h2 {
     color: #FFF;
@@ -1254,7 +1253,7 @@ blockquote > i {
     color: #000;
 }
 .contact-form {
-    margin: 90px 0;
+    margin: 0 0 70px 0;
 }
 .modal {
     background: rgba(0,0,0,0.5);
