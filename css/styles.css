@@ -692,6 +692,10 @@ blockquote > i {
     max-height: 60px;
 }
 
+.blog_grid_con .desc {
+    font-size: 14px !important;
+}
+
 /* END BLOG */
 
 /* SERVICES */
