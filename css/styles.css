@@ -811,6 +811,55 @@ blockquote > i {
     color: #FFF;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
 }
+.service-boxes {
+    margin: 10px 10px 30px 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    height: 200px;
+}
+.service-boxes i {
+    font-size: 28px;
+    color: #4f758b;
+}
+.services-boxes .col-xs-2 {
+    padding: 8px 0 !important;
+}
+.services-boxes .col-xs-10 {
+    padding: 0 !important;
+}
+.services-parallax {
+    height: 500px;
+    background-color: rgba(0,0,0,0.4);
+}
+.services-parallax h2, .services-parallax p {
+    color: #fff;
+}
+.services-row {
+    margin: 0 15px;
+}
+.services-col {
+    padding:100px 50px;
+    border: 1px solid #1b365d;
+}
+.services-col h5{
+    margin-top: 34px;
+}
+.services-col .div-serv {
+    display: inline-block;
+}
+.services-col .div-serv .icon {
+    left:-36px !important;
+}
+.services-features {
+    background-color: #fafafa;
+}
+#mato_wrapper > section.services-features > div > div.row > div > div {
+    height: 100% !important;
+    border: none !important;
+    background-color: #fff !important;
+    padding: 30px;
+    box-shadow: 0 5px 10px -6px rgba(0, 0, 0, 0.1);
+}
 
 /* END SERVICES */
 
