@@ -346,6 +346,8 @@ a:hover {
 }
 .mato_title .line:before {
     background: #e4002b;
+    width: 50px;
+    margin-top: 5px;
 }
 .mato_title .line i {
     color: #4f758b;
