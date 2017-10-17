@@ -845,18 +845,23 @@ blockquote > i {
     margin: 0 15px;
 }
 .services-col {
-    height: 550px;
-    padding:100px 50px;
+    height: 400px;
+    padding: 50px 50px;
     border: 1px solid #1b365d;
 }
 .services-col h5{
     margin-top: 34px;
+}
+.services-col h5, .services-col p {
+    color: white;
 }
 .services-col .div-serv {
     display: inline-block;
 }
 .services-col .div-serv .icon {
     left:-36px !important;
+    background-color: transparent !important;
+    cursor: default;
 }
 .services-features {
     background-color: #fafafa;
