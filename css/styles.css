@@ -1283,7 +1283,17 @@ blockquote > i {
     text-align:center;
     top: 50%;
     bottom: 50%;
-    width: 100%
+    width: 100%;
+    -webkit-transition: 0.5s ease-out !important;
+    -moz-transition: 0.5s ease-out !important;
+    transition: 0.5s ease-out !important;
+}
+.country-image:hover .country-text {
+    top: 20%;
+    bottom: 80%;
+    -webkit-transition: 0.5s ease-out !important;
+    -moz-transition: 0.5s ease-out !important;
+    transition: 0.5s ease-out !important;
 }
 .country-text h4 {
     margin: 0;
