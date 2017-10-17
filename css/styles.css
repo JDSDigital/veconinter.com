@@ -562,7 +562,7 @@ a.img_popup > span {
 }
 #eBook .modal-body, #contact .modal-body {
     background: url("../img/diagonalbg.png");
-    background-size: 100%;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -845,6 +845,7 @@ blockquote > i {
     margin: 0 15px;
 }
 .services-col {
+    height: 550px;
     padding:100px 50px;
     border: 1px solid #1b365d;
 }
