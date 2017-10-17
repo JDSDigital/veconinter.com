@@ -340,9 +340,12 @@ a:hover {
 .inwhite .div-icons_con.style1 .div-serv .desc, .inwhite .div-icons_con.style2 .div-serv .desc {
     font-weight: 400;
 }
-.light_header .topmenu-social span.socialn:after, .light_header .topmenu-social span.socialn:before, .light_header .topmenu-social > a > span.socialn , .bg_color_v{
+.light_header .topmenu-social span.socialn:after, .light_header .topmenu-social span.socialn:before, .light_header .topmenu-social > a > span.socialn {
     background: #4f758b;
     color: #fff;
+}
+.bg_color_v {
+    background-color: rgba(0,0,0,0.4);
 }
 .mato_title .line:before , .counter_a .counter .icon:after{
     background: #e4002b;
