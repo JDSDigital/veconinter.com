@@ -891,6 +891,71 @@ blockquote > i {
 .colorv > span {
     background-color: #4f758b !important;
 }
+.service-step {
+    position: relative;
+    display: block;
+    width: 100%;
+    font-size: 0;
+    margin-bottom: 30px;
+}
+.service-step::before {
+    border-color: transparent !important;
+    left: -30px;
+    content: "";
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: calc(50% + 30px);
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin-top: -1px;
+}
+.service-step-left::before {
+    border-color: #ccc !important;
+}
+.service-step::after {
+    border-color: transparent !important;
+    right: -30px;
+    content: "";
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: calc(50% + 30px);
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin-top: -1px;
+}
+.service-step-right::after {
+    border-color: #ccc !important;
+}
+.service-step span {
+    border-color: #ccc !important;
+    background-color: #fff !important;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+}
+.service-step span::before {
+    background-color: #ea2b2a !important;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+.service-step span::after {
+
+}
 
 /* END SERVICES */
 
