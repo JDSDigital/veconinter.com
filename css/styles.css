@@ -829,6 +829,21 @@ blockquote > i {
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(0,0,0,.1);
 }
+.service-boxes3 h5 {
+    -webkit-transition: all 0.2s ease !important;
+    -moz-transition: all 0.2s ease !important;
+    -o-transition: all 0.2s ease !important;
+    -ms-transition: all 0.2s ease !important;
+    transition: all 0.2s ease !important;
+}
+.service-boxes3 h5:hover {
+    color: #4f758b;
+    -webkit-transition: all 0.2s ease !important;
+    -moz-transition: all 0.2s ease !important;
+    -o-transition: all 0.2s ease !important;
+    -ms-transition: all 0.2s ease !important;
+    transition: all 0.2s ease !important;
+}
 .service-boxes i {
     font-size: 28px;
     color: #4f758b;
@@ -952,9 +967,6 @@ blockquote > i {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     border-radius: 50%;
-}
-.service-step span::after {
-
 }
 
 /* END SERVICES */
