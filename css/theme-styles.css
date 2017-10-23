@@ -10832,7 +10832,7 @@ span.comment_meta a{
 }
 
 .bordered_content:not(.with_text) .google_map {
-	height: 350px;
+	height: 550px;
 }
 .google_map {
     display: block;

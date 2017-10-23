@@ -1342,6 +1342,25 @@ blockquote > i {
     float: left;
     position: relative;
 }
+.map-offices {
+    background: #4f758b;
+    height: 550px;
+    color: white;
+    padding: 0 50px;
+}
+.map-offices h2{
+    color: white;
+}
+.map-offices p {
+    margin-bottom: 0;
+}
+.map-offices .row {
+    margin-bottom: 10px;
+}
+.map-offices i {
+    font-size: 30px;
+    margin-top: 5px;
+}
 
 /* NEW */
 
