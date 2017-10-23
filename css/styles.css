@@ -1343,10 +1343,10 @@ blockquote > i {
     position: relative;
 }
 .map-offices {
-    background: #4f758b;
-    height: 550px;
+    background: linear-gradient(#4f758b, #2c4351);
+    height: 600px;
     color: white;
-    padding: 0 50px;
+    padding: 50px;
 }
 .map-offices h2{
     color: white;
@@ -1399,6 +1399,9 @@ blockquote > i {
     height: 250px;
     object-fit: cover
 }
+.country-image-2 img {
+    height: 100px;
+}
 .country-text {
     left: 0;
     color: #FFF;
@@ -1412,7 +1415,7 @@ blockquote > i {
     transition: 0.5s ease-out !important;
 }
 .country-image:hover .country-text {
-    top: 20%;
+    top: 15%;
     bottom: 80%;
     -webkit-transition: 0.5s ease-out !important;
     -moz-transition: 0.5s ease-out !important;
