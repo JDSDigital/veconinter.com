@@ -702,6 +702,22 @@ blockquote > i {
 .blog_grid_con .desc {
     font-size: 14px !important;
 }
+.hm_blog_list2 i, .hm_blog_list3 i {
+    color: #e4002b;
+}
+.hm_blog_list2 p, .hm_blog_list2 span, .hm_blog_list2 a, .hm_blog_list3 {
+    color: #333 !important;
+}
+.hm_blog_list2 .blog_grid_block:not(:last-child) {
+    border-color: rgb(46,76,106);
+}
+.search_block form .search_btn2 {
+    background-color: #4f758b;
+    color: #FFF;
+}
+.search_block form .search_btn2:after {
+    background-color: transparent;
+}
 
 /* END BLOG */
 
@@ -967,6 +983,12 @@ blockquote > i {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     border-radius: 50%;
+}
+.service-phases {
+    background: linear-gradient(#4F758B, #2C4351);
+}
+.service-phases h2, .service-phases h5, .service-phases p {
+    color: #FFF;
 }
 
 /* END SERVICES */
@@ -1343,7 +1365,8 @@ blockquote > i {
     position: relative;
 }
 .map-offices {
-    background: linear-gradient(#4f758b, #2c4351);
+    /*background: linear-gradient(#4f758b, #2c4351);*/
+    background-color: #3B5060;
     height: 600px;
     color: white;
     padding: 50px;
