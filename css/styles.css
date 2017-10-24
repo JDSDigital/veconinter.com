@@ -702,10 +702,10 @@ blockquote > i {
 .blog_grid_con .desc {
     font-size: 14px !important;
 }
-.hm_blog_list2 i, .hm_blog_list3 i {
+.hm_blog_list2 i, .hm_blog_list3 i, .hm_blog_list2 .post_title_con i, .post_title_con2 .meta .meta_part i {
     color: #e4002b;
 }
-.hm_blog_list2 p, .hm_blog_list2 span, .hm_blog_list2 a, .hm_blog_list3 {
+.hm_blog_list2 p, .hm_blog_list2 span, .hm_blog_list2 a, .hm_blog_list3, .hm_blog_list2 .post_title_con p, .post_title_con2 .meta .meta_part span, .hm_blog_full_list, .hm_blog_full_list p, .hm_blog_full_list .quote_text, .post_next_prev2 i, .post_next_prev2 span {
     color: #333 !important;
 }
 .hm_blog_list2 .blog_grid_block:not(:last-child) {
