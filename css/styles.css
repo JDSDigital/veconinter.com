@@ -1426,13 +1426,37 @@ blockquote > i {
     -moz-transition: box-shadow 0.2s ease-in;
     transition: box-shadow 0.2s ease-in;
 }
+.country-image-2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -moz-box-shadow: inset 0px 0px 150px 40px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: inset 0px 0px 150px 40px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0px 0px 150px 40px rgba(0, 0, 0, 0.6);
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+}
+.country-image-2:hover:before {
+    -moz-box-shadow: inset 0px 0px 150px 0px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: inset 0px 0px 150px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0px 0px 150px 0px rgba(0, 0, 0, 0.6);
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+}
 .country-image img {
     width: 100%;
     height: 250px;
     object-fit: cover
 }
 .country-image-2 img {
+    width: 270px;
     height: 100px;
+    object-fit: cover
 }
 .country-text {
     left: 0;
@@ -1457,10 +1481,33 @@ blockquote > i {
     margin: 0;
     color: #FFF;
 }
-.country-text-2 {
-    background: linear-gradient(rgb(46, 76, 106), rgb(8,40,58));
+.country-link2 {
+    /*height: 80px;*/
+    background: #FFF;
     margin: 10px 30px;
-    padding: 10px 0;
+    -webkit-transition: 0.5s ease-out !important;
+    -moz-transition: 0.5s ease-out !important;
+    transition: 0.5s ease-out !important;
+    border: 1px solid #3B5060;
+}
+.country-text-2 {
+    position:absolute;
+    /*margin: 10px 30px;*/
+    /*padding: 10px 0;*/
+    top: 50%;
+    bottom: 50%;
+    left: 0 ;
+    right: 0 ;
+    -webkit-transition: 0.5s ease-out !important;
+    -moz-transition: 0.5s ease-out !important;
+    transition: 0.5s ease-out !important;
+}
+.country-link2:hover .country-text-2 {
+    top: 15%;
+    bottom: 80%;
+    -webkit-transition: 0.5s ease-out !important;
+    -moz-transition: 0.5s ease-out !important;
+    transition: 0.5s ease-out !important;
 }
 .country-text-2 h4 {
     color: white;
