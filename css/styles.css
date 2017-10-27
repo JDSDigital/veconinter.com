@@ -1520,6 +1520,17 @@ blockquote > i {
     -moz-transition: 0.5s ease-out !important;
     transition: 0.5s ease-out !important;
 }
+.country-image-2 .country-text-2 h4 {
+    -webkit-transition: 0.2s ease-out !important;
+    -moz-transition: 0.2s ease-out !important;
+    transition: 0.2s ease-out !important;
+}
+.country-image-2:hover .country-text-2 h4 {
+    text-shadow: 2px 2px 4px black;
+    -webkit-transition: 0.2s ease-out !important;
+    -moz-transition: 0.2s ease-out !important;
+    transition: 0.2s ease-out !important;
+}
 /*.country-link2:hover .country-text-2 {
     top: 15%;
     bottom: 80%;
@@ -1592,10 +1603,13 @@ blockquote > i {
     margin-bottom: 50px;
 }
 .landing-container {
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255,255,255,0.6);
 }
 .landing-container .desc {
     color: #333;
+}
+.div-icons_con.style1.solid_icon .div-serv > .icon2 i {
+    background: transparent !important;
 }
 
 /* END LANDING */
