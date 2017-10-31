@@ -261,9 +261,20 @@ a:hover {
     /*background-size: 100%;*/
     /*background-position: center;*/
 }
-.main-slider img, .landing-slider img, .landing-slider-2 img  {
+.landing-slider-3 {
+    /*max-height: 800px;*/
+    background-color: rgba(0,0,0,0.4);
+    margin-top: -83px;
+}
+.main-slider img, .landing-slider img, .landing-slider-2 img, .landing-slider-3 img  {
     margin: 0 auto;
     /*background-color: rgba(0,0,0,0.1);*/
+}
+.landing-slider-3 img  {
+    /*max-height: 600px;*/
+}
+.landing-slider-3-2 {
+    /*background-color: #9A9B9C;*/
 }
 .main-slider-text {
     margin-top: 100px;
@@ -278,13 +289,17 @@ a:hover {
 .main-slider-text p {
     color: #fff;
 }
+.landing-slider-3 .main-slider-text h1, .landing-slider-3 .main-slider-text h2, .landing-slider-3 .main-slider-text p {
+    color: white;
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.7);
+}
 .landing-slider .main-slider-text {
     margin-top: 200px;
 }
-.landing-slider-2 .main-slider-text h1 {
+.landing-slider-2 .main-slider-text h1, .landing-slider-3 .main-slider-text h1 {
     margin-top: 100px;
 }
-.landing-slider .main-slider-text .btn-login, .landing-slider-2 .main-slider-text .btn-login {
+.landing-slider .main-slider-text .btn-login, .landing-slider-2 .main-slider-text .btn-login, .landing-slider-3 .main-slider-text .btn-login {
     margin: 10px 0;
     border: none;
 }
