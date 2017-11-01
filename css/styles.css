@@ -1428,6 +1428,18 @@ blockquote > i {
     margin-top: 5px;
 }
 
+.tabs1.fill_active .tabs-navigator a.selected, .tabs1.fill_active .tabs-navigator a:hover {
+    background: #4f758b;
+    color: #fff;
+    border-color: #4f758b;
+}
+.tabs1.fill_active .tabs-navigator li:first-child a.selected {
+    border-left: none;
+}
+.tabs1:not(.ver_tabs) .tabs-navigator a.selected {
+    box-shadow: inset 0 2px 0 #e4002b;
+}
+
 /* NEW */
 
 .country-section .col-md-3 {
