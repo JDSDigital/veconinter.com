@@ -1610,6 +1610,15 @@ blockquote > i {
     margin: 0 auto !important;
 }
 
+.occ_expanded .Gabriel_occ_title {
+    color: #fff;
+    background: #4f758b;
+    border-color: #4f758b;
+}
+.Gabriel_occ_content, .Gabriel_occ_title {
+    color: #333;
+}
+
 /* PAYMENTS FORM */
 
 /* LANDING */
