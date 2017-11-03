@@ -1407,6 +1407,41 @@ blockquote > i {
         position: relative;
     }
 }
+.new-col2 {
+    width: 315px;
+    display: inline-block;
+}
+.new-col2 .country-link2 {
+    margin: 10px 0 auto !important;
+    border: none !important;
+}
+.new-col2 .country-image::before {
+    background: white;
+    /*background: rgb(46,76,106);*/
+    /*background: linear-gradient(rgb(46,76,106), rgb(8,40,58));*/
+    /*background: -webkit-linear-gradient(150deg, #1F2A44 0%, #1b365d 50%, #e4002b 50%, #C8102E 100%);*/
+    /*background: -moz-linear-gradient(150deg, #1F2A44 0%, #1b365d 50%, #e4002b 50%, #C8102E 100%);*/
+    /*background: linear-gradient(125deg, #1F2A44 0%, #1b365d 50%, #e4002b 50%, #C8102E 100%);*/
+    /*-moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;*/
+    box-shadow: 0 5px 10px -6px rgba(0, 0, 0, 0.1) !important;
+    border-top: 2px solid #e4002b;
+}
+.new-col2 .country-link2 .country-text-2 i, .new-col2 .country-link2 .country-text-2 h4 {
+    /*color: rgb(234, 43, 42) !important;*/
+    color: #333;
+}
+.new-col2 .country-link2 .country-text-2 i {
+    /*color: #e4002b;*/
+    color: rgb(46,76,106);
+}
+.new-col2 .country-image-2:hover .country-text-2 h4, .new-col2 .country-image-2:hover .country-text-2 i {
+    text-shadow: none;
+}
+.tabs-navigator a {
+    color: #555;
+}
 .map-offices {
     /*background: linear-gradient(#4f758b, #2c4351);*/
     background-color: #9A9B9C;
