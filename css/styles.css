@@ -731,6 +731,10 @@ blockquote > i {
     padding-bottom: 80px;
     margin-bottom: 80px;
 }
+.hm_blog_list4 .blog_grid_block:not(:last-child) {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
 .search_block form .search_btn2 {
     background-color: #4f758b;
     color: #FFF;
