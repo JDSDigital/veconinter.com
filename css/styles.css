@@ -1237,7 +1237,20 @@ blockquote > i {
     max-height: 150px;
     object-fit: cover;
 }
-
+.tagcloud2 a {
+    display: inline;
+    float: none;
+    background-color: #4f758b;
+}
+.tagcloud2 a span {
+    color: #FFF !important;
+    background-color: #4f758b !important;
+}
+.tagcloud2.style2 .num:after {
+    border-color: rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,0) #4f758b;
+    left: -2px;
+    top: 12px;
+}
 /* END PRESS */
 
 /* CAREERS */
