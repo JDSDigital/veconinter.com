@@ -1712,6 +1712,9 @@ blockquote > i {
 .div-icons_con.style1.solid_icon .div-serv > .icon2 i {
     background: transparent !important;
 }
+.div-icons_con.style1 .div-serv > .icon i {
+    background-color: #4f758b;
+}
 
 /* END LANDING */
 
