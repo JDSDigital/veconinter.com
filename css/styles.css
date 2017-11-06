@@ -1228,6 +1228,15 @@ blockquote > i {
 .related_posts_slide .related_title:hover {
     color: #4f758b;
 }
+.news-container-4 {
+    padding: 10px;
+    border-bottom: 1px solid #aaa;
+    /*min-height: 200px;*/
+}
+.news-container-4 img {
+    max-height: 150px;
+    object-fit: cover;
+}
 
 /* END PRESS */
 
