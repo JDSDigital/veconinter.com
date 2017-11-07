@@ -28,7 +28,7 @@ $(function () {
     $('.landing-container').parallax({imageSrc: './img/header/full/01.jpg'});
     $('.services-parallax').parallax({imageSrc: './img/containers.jpg'});
     $('.counters_services').parallax({imageSrc: './img/containers.jpg'});
-    $('.landing-slider-3').parallax({imageSrc: './img/user-app-1.jpg'});
+    $('.landing-slider-3').parallax({imageSrc: './img/containers.jpg'});
     //$('.landing-slider-3-2').parallax({imageSrc: './img/user-app-2.jpg'});
 
     /**
