@@ -507,7 +507,7 @@ a.img_popup > span {
     margin: 0 auto;
     margin-top: 20px;
 }
-.bg_vecogo h4, h6 {
+.bg_vecogo h4, .bg_vecogo h6 {
     color: #333;
     font-weight: 600;
     padding: 3px;
@@ -625,6 +625,15 @@ a.img_popup > span {
     -o-transition: all 0.2s ease !important;
     -ms-transition: all 0.2s ease !important;
     transition: all 0.2s ease !important;
+}
+.popular-slider {
+    margin-left: 6px !important;
+}
+.popular-slider .popular-post {
+    width: 100%;
+}
+.popular-slider .owl-item {
+    padding: 0 10px;
 }
 .popular-post img {
     position: relative;
@@ -744,8 +753,8 @@ blockquote > i {
 }
 .widget_block2 {
     border-bottom: 1px solid rgb(46,76,106);
-    margin-bottom: 50px;
-    padding-bottom: 50px;
+    margin-bottom: 24px;
+    padding-bottom: 26px;
 }
 .cat_list_widget2 > li a , .cat_list_widget2 > li .num_posts{
     color: #333;
@@ -1153,6 +1162,9 @@ blockquote > i {
     -o-transition: all 0.2s ease !important;
     -ms-transition: all 0.2s ease !important;
     transition: all 0.2s ease !important;
+}
+.common-txtslider.client_say_slider .owl-prev, .common-txtslider.client_say_slider .owl-next {
+    top: 25px;
 }
 
 /* END ABOUT */
@@ -1694,6 +1706,10 @@ blockquote > i {
 }
 .plus_minus_style .panel-heading a:after, .plus_minus_style .panel-heading a:before, .plus_minus .Gabriel_occ_title:after, .plus_minus .Gabriel_occ_title:before {
     background: #777;
+}
+.tabs-navigator a {
+    color: #333;
+    background: #ddd;
 }
 
 /* PAYMENTS FORM */

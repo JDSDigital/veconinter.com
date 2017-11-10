@@ -654,6 +654,12 @@ $(function () {
         /* <button type="button" class="close" data-dismiss="modal">&times;</button> */
         $('#country-modal').modal('toggle');
     })
+
+    $('.popular-slider').owlCarousel({
+        autoPlay : 5000,
+        items: 4,
+        margin: 10
+    });
 });
 
 (function ($) {
