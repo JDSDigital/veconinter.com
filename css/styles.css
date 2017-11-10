@@ -1512,6 +1512,27 @@ blockquote > i {
 .tabs1:not(.ver_tabs) .tabs-navigator a.selected {
     box-shadow: inset 0 2px 0 #e4002b;
 }
+.country-tab {
+    background-color: #ddd;
+    padding: 20px 30px;
+    border-bottom: 1px solid #777;
+    border-left: 1px solid #777;
+    border-right: 1px solid #777;
+}
+.country-tab.active {
+    background-color: #FFF;
+    border-left: 3px solid red;
+}
+.country-tab h4 {
+    margin-bottom: 0;
+}
+.map-offices2 {
+    background-color: white;
+    color: #333;
+}
+.map-offices2 h2 {
+    color: #333;
+}
 
 /* NEW */
 
