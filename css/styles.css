@@ -1553,6 +1553,25 @@ blockquote > i {
 .map-offices2 h2 {
     color: #333;
 }
+.office-text h1 {
+    font-size: 30px;
+}
+.office-text .title1 i {
+    font-size: 20px;
+    margin-left: 5px;
+}
+.office-text h2 {
+    font-size: 20px;
+}
+.office-text h6 {
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+.office-text img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 300px;
+}
 
 /* NEW */
 
