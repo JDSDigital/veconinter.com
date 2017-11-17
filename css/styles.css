@@ -1139,13 +1139,13 @@ blockquote > i {
     line-height: 36px;
 }
 .partners-row {
-    margin-top: 50px;
-    margin-bottom: 30px;
+    padding: 50px;
+    background-color: #efefef;
 }
 .partners a {
     margin: 20px;
 }
-.partners a img {
+.partners .logo-box a img {
     /*transform: scale(0.9);*/
     opacity: 0.5;
     -webkit-transition: all 0.2s ease !important;
@@ -1153,10 +1153,11 @@ blockquote > i {
     -o-transition: all 0.2s ease !important;
     -ms-transition: all 0.2s ease !important;
     transition: all 0.2s ease !important;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
     /*max-width: 200px;*/
+    /*max-height: 130px;*/
 }
-.partners a img:hover {
+.partners .logo-box:hover a img {
     /*transform: scale(1);*/
     opacity: 1;
     -webkit-transition: all 0.2s ease !important;
@@ -1169,13 +1170,21 @@ blockquote > i {
     top: 25px;
 }
 .logo-box {
-    border: 1px solid #ddd;
-    width: 250px;
-    height: 150px;
+    border: 1px solid #bbb;
+    /*width: 250px;*/
+    height: 170px;
     /*display: inline-block;*/
     text-align: center !important;
     margin: 5px 0;
     border-radius: 5px;
+    padding: 5px 20px;
+    background-color: #fff;
+}
+.logo-inner-box {
+    /*height: 130px !important;*/
+    /*width: auto;*/
+    /*border: 1px solid red;*/
+    margin: auto;
 }
 
 /* END ABOUT */
