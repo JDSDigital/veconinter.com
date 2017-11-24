@@ -1735,6 +1735,41 @@ blockquote > i {
     background: rgba(0,0,0,0.5);
 }
 
+.select {
+    overflow: hidden;
+    height: 40px;
+    width: 320px;
+    position: relative;
+    display: block;
+}
+
+.select select {
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.select:after {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    padding: 0 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+}
+
     /* END CONTACT */
 
 /* PAYMENTS */
