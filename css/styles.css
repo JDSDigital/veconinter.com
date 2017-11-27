@@ -1572,6 +1572,12 @@ blockquote > i {
     object-fit: cover;
     max-height: 300px;
 }
+.contact-city-info li {
+    display: none;
+}
+.contact-city-info li.selected {
+    display: block;
+}
 
 /* NEW */
 
