@@ -320,6 +320,9 @@ a:hover {
     text-transform: uppercase;
     text-shadow: 3px 3px 5px rgba(0,0,0,0.7);
 }
+.careers-slider-text {
+    margin-top: 130px;
+}
 .secondary-slider-text h1, .secondary-slider-text h2 {
     color: #fff;
     font-weight: 600;
@@ -1304,11 +1307,21 @@ blockquote > i {
     background: linear-gradient(#4f758b, #2c4351);
     padding: 50px 0;
 }
-.offer-block h4, .offer-block p {
+.offer-block h2, .offer-block h4, .offer-block p {
     color: #fff;
 }
 .offer-block i {
     margin-right: 10px;
+}
+.offer-container {
+    border: 1px solid #FFF;
+    padding: 10px;
+    background-color: #FFF;
+    color: #000;
+    box-shadow: 3px 3px 5px #000;
+}
+.offer-container h4 {
+    color: #000;
 }
 .send-resume-block h4, .send-resume-block h6 {
     color: #FFF;

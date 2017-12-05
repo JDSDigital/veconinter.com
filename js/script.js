@@ -18,6 +18,7 @@ $(function () {
     var randomMain = Math.floor(Math.random() * 2);
     var randomSelect = Math.floor((Math.random() * (headerImages.length - 2)) + 2);
 
+    $('.careers-slider').parallax({imageSrc: './img/team.jpg'});
     $('.main-slider').parallax({imageSrc: './img/header/full/' + headerImages[randomMain]});
     $('.secondary-slider').parallax({imageSrc: './img/header/full/' + headerImages[randomSelect]});
     $('.send-resume-block').parallax({imageSrc: './img/team2.jpg'});
