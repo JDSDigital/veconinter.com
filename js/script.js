@@ -19,6 +19,7 @@ $(function () {
     var randomSelect = Math.floor((Math.random() * (headerImages.length - 2)) + 2);
 
     $('.careers-slider').parallax({imageSrc: './img/team.jpg'});
+    $('.offer-block').parallax({imageSrc: './img/work_with_us.jpg'});
     $('.main-slider').parallax({imageSrc: './img/header/full/' + headerImages[randomMain]});
     $('.secondary-slider').parallax({imageSrc: './img/header/full/' + headerImages[randomSelect]});
     $('.send-resume-block').parallax({imageSrc: './img/team2.jpg'});

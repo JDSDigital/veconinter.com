@@ -1304,7 +1304,8 @@ blockquote > i {
     color: #2c4351;
 }
 .offer-block {
-    background: linear-gradient(#4f758b, #2c4351);
+    /*background: linear-gradient(#4f758b, #2c4351);*/
+    background: rgba(0,0,0,0.4);
     padding: 50px 0;
 }
 .offer-block h2, .offer-block h4, .offer-block p {
